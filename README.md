@@ -42,4 +42,12 @@ Each lesson includes:
 - Slect nested elements to apply styling 
 
 ## Lesson Plan:
-The following information contants suggested lesson plan for teaching HTML & CSS for a 1-2 days workshop structure.  This guide is divided into X topics and X optional projects.  
+The following information contants suggested lesson plan for teaching HTML & CSS for a 1-2 days workshop structure.  This guide is divided into X topics and X optional projects
+
+## How do you run a Workshop?
+- Find a venue that preferably has pairing stations, like a local immersion school. 
+-Pick an appropriate date and time. 
+- Advertise the event. Specify in the description what the levels are (1: HTML/CSS, 2: JS, 3: Advanced JS), and ask attendees what level they think they are at. Here's how we advertised it: <sample here>
+- Find TAs that can help answer questions at the different levels.
+- Prepare sets of name badges based on the attendees count. 
+- Start off the event by having everyone introducing themselves and if possible include an icebreaker <Sample here>
