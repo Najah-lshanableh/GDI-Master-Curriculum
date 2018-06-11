@@ -4,6 +4,13 @@ We maintain our Open Source, consolidated and standardized curriculum materials 
 # Contributing
 * [Read our guideline](https://github.com/girldevelopit/gdi-core-teachingMaterials/curriculum-creation-guidelines.md)
 
+* [Pull Request Template](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/pull-request-template.md)
+
+* [Issue Template]()
+
+* [How to Pull Request]() Github Repo with Learning focused Pull Request Template.
+
+
 # Curriculum Creation Checklist
 1.
 
