@@ -4,7 +4,9 @@
 _Include the Issue#._
 > Fixes issue #...
 
-_Describe the Purpose of the pull request (what was the problem encountered). Include background information and/or links if necessary._
+_Any background context you want to provide?.  Describe the Purpose of the pull request (what was the problem encountered) also add links if necessary._
+
+Any background context you want to provide?
 
 
 _How does this change address the problem? Include a description of the changes made._
