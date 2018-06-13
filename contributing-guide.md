@@ -73,6 +73,12 @@ Here are a few tips when creating a pull request:
 
   * Again, if submitting a new lesson or resource, please make sure the lessons are in the standard curriculum templates.
 
+  * If pull request is new to you or want to learn more, here are helpful reading resources:
+    * [About Pull Requests - Github](https://help.github.com/articles/about-pull-requests/)
+    * [Creating a Pull Request - Github](https://help.github.com/articles/creating-a-pull-request/)
+    * [Requesting a Pull Request Review](https://help.github.com/articles/requesting-a-pull-request-review/)
+
+
 ### Open Pull Requests
 Once you’ve submitted a pull request, a discussion may start around your proposed changes. Other contributors and users may have questions or suggestions, but ultimately the decision is made by the maintainer(s) and the owner. You may be asked to make some changes to your pull request, if so, add more commits to your branch and push them – they’ll automatically go into the existing pull request.
 
