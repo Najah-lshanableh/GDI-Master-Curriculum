@@ -1,21 +1,19 @@
-# GDI Teaching Materials
-We maintain our Open Source, consolidated and standardized curriculum materials on this repo.
+# GDI Teaching Materials :rocket:
+Welcome to Girl Develop It's Master Curriculum Materials!
 
-# Contributing
-* [Read our guideline](https://github.com/girldevelopit/gdi-core-teachingMaterials/curriculum-creation-guidelines.md)
+This repository contains all the consolidated and standardized materials GDI provides its chapter leaders, teachers, ta's and students. It's
 
-* [Pull Request Template](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/pull-request-template.md)
+---
 
-* [Issue Template]()
+Included in this repository :
+1. Curriculum - instructions and materials for all lessons, and labs and assessments; corresponding materials include slides in Reveal.js format and additional resources for students.
 
-* [How to Pull Request]() Github Repo with Learning focused Pull Request Template.
+2. Resources - diverse supplementary resources, templates (for lesson plans, exercises, code of conduct, marketing materials etc.), and style guide.
 
+3. [Contributing Guidelines](https://github.com/girldevelopit/gdi-core-teachingMaterials/curriculum-creation-guidelines.md) - information about how to contribute and submit materials you create, modify, or fix back to the GDI national.
 
-# Curriculum Creation Checklist
-1.
+---
+# Contributing and Reporting Issues
+We highly encourage active collaboration from all the GDI chapters. In order to contribute, fork this repository directly.  We hope you'll have curricular improvements or suggestions to submit, via pull request or issue, to enhance and make our curriculum better.
 
-# Resources
-  * [GDI Slides Template](https://github.com/girldevelopit/gdi-slides-template)
-  * [Slides Creation Guidelines](https://github.com/girldevelopit/gdi-slides-template/wiki)
-  * [About reveal.js](https://github.com/girldevelopit/reveal.js)
-  * [Curriculum Review Rubric](https://docs.google.com/document/d/174qPsvHornWT-oERdOP5HlKCBDUDUU5mypFQKFfJ63g/edit)
+Please checkout our [contribution guidelines](https://github.com/girldevelopit/gdi-core-teachingMaterials/curriculum-creation-guidelines.md) for more details.
