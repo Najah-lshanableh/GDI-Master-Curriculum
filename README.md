@@ -6,7 +6,7 @@ This repository contains all the consolidated and standardized materials GDI pro
 ---
 
 Included in this repository :
-1. Curriculum - instructions and materials for all lessons, and labs and assessments; corresponding materials include slides in Reveal.js format and additional resources for students.
+1. Curriculum - instructions and materials for all lessons, workshops; corresponding materials include slides in Reveal.js format and additional resources for students.
 
 2. Resources - diverse supplementary resources, templates (for lesson plans, exercises, code of conduct, marketing materials etc.), and style guide.
 
