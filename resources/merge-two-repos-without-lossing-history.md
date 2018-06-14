@@ -1,4 +1,4 @@
-# How to Merge Repost without Losing History (without using submodules)
+# How to Merge Repost Without Losing History (without using submodules) :blue_book:
 If you want an old project(repo) to be a subdirectory of a new project  such is the case here in GDI where we want to merge individual curriculum topics into the master curriculum repository, use this guide to help you.
 
 Background:

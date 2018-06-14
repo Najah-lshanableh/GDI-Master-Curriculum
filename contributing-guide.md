@@ -2,10 +2,10 @@
 Our community it's continuously growing, and our chapters do so much to adapt, collaborate and enhance our curriculum as they prepare for workshops and teaching events. It's absolutely necessary to Girl Develop It's work to create superior curriculum and resource sharing. We ask you to contribute your work back to the GDI master curriculum repository and use the documentation below as guidance.
 
 Included in this file is information about:
-* The GDI Open Source Community
-* Contributing Guidelines for Issues or Pull Requests
-* Using Labels Appropriately
-* Contributor Expectations
+* [The GDI Open Source Community](#the-community)
+* [Contributing Guidelines for Issues or Pull Requests](#contributing-guidelines-issues-and-pull-requests)
+* [Using Labels Appropriately](#labels)
+* [Contributor Expectations](#contributors-expectations)
 
 ---
 # The Community :tada:
