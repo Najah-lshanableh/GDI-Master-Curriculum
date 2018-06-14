@@ -8,7 +8,7 @@ This repository contains all the consolidated and standardized materials GDI pro
 Included in this repository :
 1. Curriculum - instructions and materials for all lessons, workshops; corresponding materials include slides in Reveal.js format and additional resources for students.
 
-2. Resources - diverse supplementary resources, templates (for lesson plans, exercises, code of conduct, marketing materials etc.), and style guide.
+2. [Resources](https://github.com/girldevelopit/GDI-Master-Curriculum/tree/master/resources) - diverse supplementary resources, templates (for lesson plans, exercises, code of conduct, marketing materials etc.), and style guide.
 
 3. [Contributing Guidelines](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/contributing-guide.md) - information about how to contribute and submit materials you create, modify, or fix back to the GDI national.
 
