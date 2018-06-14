@@ -85,25 +85,27 @@ Once you’ve submitted a pull request, a discussion may start around your propo
 If your pull request is merged – great! If it is not, no worries, it may not be what the project maintainer had in mind, or they were already working on it.
 
 ## Labels (WIP) :pencil2:
-Labels help us to keep our work organize and well prioritized. Please use labels to make it easier for owners and maintainers to work through and address issues and merge pull requests. Take a look at the labels and label use cases below:
+Labels help us to keep our work organize and well prioritized. Please use labels to make it easier for our community to work through and address issues and merge pull requests. Take a look at the labels and label use cases below:
 
-  * admin:
+(WIP)-> Add Image here
 
-  * Newbies Friendly: Issues that new or beginners can easily work on
+  * Admin: Used by contributors to call for admin support or revision
 
-  * advanced-issue:
+  * Newbies-friendly: Used by contributors for either pull requests that contain solution or issues reporting a beginner friendly bug level
 
-  * content:
+  * Advanced-issue: Used by contributors for either pull requests that contain solution or issues reporting a more advance required bug level
 
-  * typos:
+  * Vet-and-verify: Used by contributors to call for a second set of eyes to double check if there is still a bug
 
-  * epic:
+  * Content: Used by contributors to classify content related issues or pull requests
+
+  * Typos: Used by contributors to classify issues or pull requests related to typos or grammar in the content
 
   * Bug Fix: Used by contributors for either pull requests that contain solutions or issues reporting a bug
 
-  * Help Wanted: Used by maintainers, owners, or contributors to invite others to collaborate; this will be used in conjunction with assignment
+  * Help Wanted: Used by maintainers, owners, or contributors to invite others to collaborate
 
-  * Discussion/Question: Used by maintainers, owners, or contributors on issues for higher-level discussions or questions about the curriculum
+  * Discussion/Question: Used by the community on issues for higher-level discussions or questions about the curriculum
 
   * Duplicate: Used by maintainers or owners to classify duplicate issues or pull requests
 
