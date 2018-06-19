@@ -1,5 +1,4 @@
 # GDI Audience
----
 
 Girl Develop it offers affordable programs for adult women interested in learning web and software development in a judgment-free environment.
 
