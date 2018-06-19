@@ -5,7 +5,7 @@ Included in this file is information about:
 * [The GDI Open Source Community](#the-community-tada)
 * [Contributing Guidelines for Issues or Pull Requests](#contributing-guidelines-issues-and-pull-requests-bookmark)
 * [Using Labels Appropriately](#labels-wip-pencil2)
-* [Contributor Expectations](#contibutors-expectationswip-point_up_2)
+* [Contributor Expectations](#contributors-expectationswip-point_up_2)
 
 ---
 # The Community :tada:
