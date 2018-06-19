@@ -12,7 +12,7 @@ The good news is that Git provides an easier alternative to accomplish this task
 * Step 1: Clone projects:
     ```
   git clone git@github.com:girldevelopit/GDI-Master-Curriculum.git
-  git clone git@github.com:girldevelopit/individual-project.git
+  git clone git@github.com:girldevelopit/old-individual-project.git
   ```
 
 * Step 2: Moving old repo to master curriculum:
@@ -20,21 +20,40 @@ The good news is that Git provides an easier alternative to accomplish this task
   cd old-individual-project
   mkdir old-individual-project
   git mv !(old-individual-project) old-individual-project
-  git commit -a -S -m “Moving old project into its own subdirectory”
+  git add .
+  git commit -m “Moving old project into its own subdirectory to prepare for merge to GDI master curriculum”
+  git push
   ```
   !(old-individual-project) is a shell command that says “everything but old-project”. If your project is called html-css, then you move “everything but the html-css.
 
-  * Step 3: Merging
+  Troubleshooting :information_desk_person: :bulb:: When you are moving the files, if you encounter the following error like this one:
   ```
+  -bash: !: event not found
+  ```
+  Run the following command:
+  ```
+  $ shopt -s extglob; set +H
+  ```
+  The !(old-individual-project) shell command is an extended glob and extglob is turned off so by running the command above, it should fix the event not found error.  [More info](https://askubuntu.com/questions/798749/bash-event-not-found)
+
+* Step 3: Merging
+  ```
+  # Go to the GDI Master Curriculum folder
   cd ../GDI-Master-Curriculum
-  git remote add old-individual-project ../old-individual-project
-  git fetch old-individual-project
-  git checkout -b feature/merge-old-individual-project
+
+  # Add a remote for and fetch the old repo
+  git remote add -f old-individual-project <old-individual-project repo URL>
+
+  # Merge the files from old_a/master into new/master
   git merge -S --allow-unrelated-histories old-individual-project/master
+
+
   git push origin feature/merge-old-individual-project
   git remote rm old-individual-project
   ```
 
+
+  **git checkout -b feature/merge-old-individual-project**
   What we’re doing is add a remote to the old project, and merge everything into the GDI-Master-Curriculum. Since git doesn’t allow merges without a common history, we’ll have to force it using the allow-unrelated-histories option. Because there is a good practice to have a well maintained repo, we’re doing everything in a branch which we will merge after a code review is done.
 
 ## Conclusion:
