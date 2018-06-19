@@ -47,14 +47,20 @@ The good news is that Git provides an easier alternative to accomplish this task
   # Merge the files from old_a/master into new/master
   git merge -S --allow-unrelated-histories old-individual-project/master
 
-
-  git push origin feature/merge-old-individual-project
-  git remote rm old-individual-project
+  # Push changes upstream
+  git push
   ```
+  Troubleshooting :information_desk_person: :bulb:: If you are not familiar with VIM and when you commit your changes, you see a terminal window that opens with a vim window and with a message already pre-populated, then in order to save that message and exit from vim, just follow these steps:
+   1. Press Esc key
+   2. Press : (colon). The cursor should reappear at the lower left corner of the screen beside a colon prompt.
+   3. Enter the following command:
+      * type :wq!
+      * press Enter key):
+   4. This will quit the editor, and all changes you have made to the document will be saved to the file.
 
+  What we’re doing is add a remote to the old project, and merge everything into the GDI-Master-Curriculum. Since git doesn’t allow merges without a common history, we’ll have to force it using the allow-unrelated-histories option.
 
-  **git checkout -b feature/merge-old-individual-project**
-  What we’re doing is add a remote to the old project, and merge everything into the GDI-Master-Curriculum. Since git doesn’t allow merges without a common history, we’ll have to force it using the allow-unrelated-histories option. Because there is a good practice to have a well maintained repo, we’re doing everything in a branch which we will merge after a code review is done.
+  Optional :ok_woman:: Because there is a good practice to have a well maintained repo, you could also do everything in a branch which we will merge after a code review is done.
 
 ## Conclusion:
 By doing few normal merges, we are able to merge two repositories together into the GDI master curriculum repo and make it look like it was that way all along.  Avoid headaches using submodules or subtree merges.
