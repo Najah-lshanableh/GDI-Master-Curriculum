@@ -1,3 +1,6 @@
+# (Work in Progress) THIS REPO IS CURRENTLY UNDER CONSTRUCTION
+---
+
 # GDI Teaching Materials :rocket:
 Welcome to Girl Develop It's Master Curriculum Materials!
 
