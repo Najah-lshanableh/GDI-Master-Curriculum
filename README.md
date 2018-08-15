@@ -10,7 +10,7 @@ Included in this repository :
 
 3. [Contributing Guidelines](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md) - information about how to contribute and submit materials you create, modify, or fix back to the GDI national.
 
-4. [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/code_of_conduct.md)
+4. [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
 
 ---
 # Contributing and Reporting Issues :thumbsup:
