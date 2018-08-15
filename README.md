@@ -49,12 +49,12 @@ Please checkout our [contributing guidelines](https://github.com/girldevelopit/G
   * [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
   * [Curriculum Creation General Advise](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/curriculum_creation_general_advise.md)
   * [Guide in How to Merge a Repo into GDI Master Curriculum without submodules](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/merge-two-repos-without-lossing-history.md)
-  * Github Issues Template
+  * [Follow up email script](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/follow_up_sample_scripts.md)
+  * [Ice Breaker Questions Sample](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/fun_questions.md)
+  * [GDI Slides Template](https://github.com/girldevelopit/GDI-Master-Curriculum/tree/master/resources/reveal-gdi-theme-sample)
+  * [Meetup Description Template](https://github.com/girldevelopit/GDI-Master-Curriculum/tree/master/resources/meetup_description_template.md)
+  * [Github Issues Template](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/issue_template.md)
   * [Pull Request Template](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/pull-request-template.md)
-  * Follow up email script
-  * Ice Breaker Questions Sample
-  * GDI Slides Template
-  * Curriculum Review Rubric
 
 ## Credits
 Thank you to our [contributors](https://github.com/girldevelopit/GDI-Master-Curriculum/graphs/contributors).
