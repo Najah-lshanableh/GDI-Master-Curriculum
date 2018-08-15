@@ -61,7 +61,7 @@ As a instructor, we also want you to **collaborate with the organizers**. GDI HQ
   > :calendar: Next Saturday September 29th and Sunday September 30th.
   > :clock6: 6-9PM @ Google
 
-  > Join this workshop to learn and get your hands dirty building your first website using HTML & CSS. The workshop will be a mix of lectures and hands-on exercises, and will be taught by  [Gabriela Zamudio](https://twitter.com/evagabrielita), Software Engineers and [Brenda Jin] (https://twitter.com/cyberneticlove), chapter leader and board member of GDI..
+  > Join this workshop to learn and get your hands dirty building your first website using HTML & CSS. The workshop will be a mix of lectures and hands-on exercises, and will be taught by  [Gabriela Zamudio](https://twitter.com/evagabrielita), Software Engineers and [Brenda Jin](https://twitter.com/cyberneticlove), chapter leader and board member of GDI..
 
  >This is a great follow-up workshop for those who have attended our HTML/CSS intro 4hr. workshop, and anyone interested in shiny new web things.
 

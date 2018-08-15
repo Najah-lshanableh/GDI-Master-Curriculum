@@ -1,5 +1,4 @@
 # Follow Up Email Draft
----
 
 ## Suggested format
 Thanks for attending the workshop, and thank you to our TAs [TODO: add names here] for being such great helpers. If you haven't filled it out already, we’d love your feedback on the lecture and suggestions for improvement in this brief survey.  [TODO: add link to survey]
