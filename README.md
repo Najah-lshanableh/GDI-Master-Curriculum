@@ -47,6 +47,7 @@ Please checkout our [contributing guidelines](https://github.com/girldevelopit/G
   * [GDI Teacher Handbook](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/gdi_teachers_handbook.md)
   * [About GDI Audience](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/about-gdi-audience.md)
   * [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
+  * [Curriculum Creation General Advise](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/curriculum_creation_general_advise.md)
   * [Guide in How to Merge a Repo into GDI Master Curriculum without submodules](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/merge-two-repos-without-lossing-history.md)
   * Github Issues Template
   * [Pull Request Template](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/pull-request-template.md)
