@@ -43,7 +43,7 @@ Please checkout our [contributing guidelines](https://github.com/girldevelopit/G
 ## Resources
   * [GDI Contributing Guidelines](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)
   * [Who We Are](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/who_we_are.md)
-  * GDI Teacher Training Guide
+  * [GDI Teacher Training Guide](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/teacher_training_guide.md)
   * [GDI Teacher Handbook](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/gdi_teachers_handbook.md)
   * [About GDI Audience](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/about-gdi-audience.md)
   * [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
