@@ -61,8 +61,44 @@ As a instructor, we also want you to **collaborate with the organizers**. GDI HQ
   > :calendar: Next Saturday September 29th and Sunday September 30th.
   > :clock6: 6-9PM @ Google
 
-  > Join this workshop to learn and get your hands dirty building your first website using HTML & CSS. The workshop will be a mix of lectures and hands-on exercises, and will be taught by  Gabriela Zamudio(@evagabrielita), Software Engineers and Brenda Jin (@cyberneticlove), chapter leader and board member of GDI..
+  > Join this workshop to learn and get your hands dirty building your first website using HTML & CSS. The workshop will be a mix of lectures and hands-on exercises, and will be taught by  [Gabriela Zamudio](https://twitter.com/evagabrielita), Software Engineers and [Brenda Jin] (https://twitter.com/cyberneticlove), chapter leader and board member of GDI..
 
  >This is a great follow-up workshop for those who have attended our HTML/CSS intro 4hr. workshop, and anyone interested in shiny new web things.
 
 ---
+
+#### Teach:
+##### 30 minutes before:
+  * Arrive and set up the classroom
+  * Introduce yourself to the Workshop Coordinator and TAs
+  * **Check A/V** to make sure your presentation is working and projecting successfully
+  * Greet each student and welcome them to the workshop:
+    * Introduce yourself and learn their names
+    * Ask them who they are and why they are interested in learning the topic
+    * Ask them what they’re excited to learn today
+    * Introduce the TAs
+    * Make a special effort to reach out to students who look lost or lonely
+
+##### Starting the workshop:
+  * Start teaching no later than 10 minutes after the posted workshop time
+  * Write your name, WiFi and password on your whiteboard and say hello to your classmates
+  * Present your instructional team (Co-instructors and TA’s) and yourself. Explain why you’re an expert at what you’re about to teach. Give a little background on your professional history.
+  * Take the opportunity to introduce GDI and any upcoming events or opportunities in your chapter
+  * Present the classroom culture where you highlight to treat each other with respect, avoid bringing distraction into class, etc.
+  * If there’s time, have each person introduce themselves to the person next to them, and have them answer a [fun question](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/fun_questions.md).
+
+##### Ending the workshop:
+  * Leave enough time for the student survey during the final hands-on exercise.
+  * Make sure to get the link for your chapter’s survey link to share it with your students.
+  * End with the thanks for taking a GDI workshop slide deck highlighting next steps and your upcoming chapters events and workshops.
+
+#### Follow Up:
+* Thank the TA's for volunteering their time. Remember, they’re not getting paid.
+
+* Hang around after class to answer questions and clean up.
+
+* As soon as possible after the class is over, do a quick brain dump of your own personal thoughts about how the class went with the organizer and TAs. Capture as much of this as you can while it’s still fresh.
+
+* Within 24 hours, send a follow-up email with links to slides, other resources, follow-up classes.  [Here are some sample scripts you can use](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/follow_up_sample_scripts.md).
+  * Reiterate anything that was confusing or raised a lot during Q&A
+  * Add links and resources based on students’ questions in class
