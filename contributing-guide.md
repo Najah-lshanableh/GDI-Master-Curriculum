@@ -1,11 +1,11 @@
 # GDI Contribution Guide :two_women_holding_hands:
-Our community it's continuously growing, and our chapters do so much to adapt, collaborate and enhance our curriculum as they prepare for workshops and teaching events. It's absolutely necessary to Girl Develop It's work to create superior curriculum and resource sharing. We ask you to contribute your work back to the GDI master curriculum repository and use the documentation below as guidance.
+Our community it's continuously growing, and our chapters do so much to adapt, collaborate and enhance our curriculum as they prepare for workshops and teaching events. It's absolutely necessary to Girl Develop It to create superior curriculum and resource sharing. We ask you to contribute your work back to the GDI master curriculum repository and use the documentation below as guidance.
 
 Included in this file is information about:
 * [The GDI Open Source Community](#the-community-tada)
 * [Contributing Guidelines for Issues or Pull Requests](#contributing-guidelines-issues-and-pull-requests-bookmark)
-* [Using Labels Appropriately](#labels-wip-pencil2)
-* [Contributor Expectations](#contributors-expectationswip-point_up_2)
+* [Using Labels Appropriately](#labels-pencil2)
+* [Contributor Expectations](#contributors-expectations-point_up_2)
 
 ---
 # The Community :tada:
@@ -84,10 +84,9 @@ Once you’ve submitted a pull request, a discussion may start around your propo
 
 If your pull request is merged – great! If it is not, no worries, it may not be what the project maintainer had in mind, or they were already working on it.
 
-# Labels (WIP) :pencil2:
+# Labels :pencil2:
 Labels help us to keep our work organize and well prioritized. Please use labels to make it easier for our community to work through and address issues and merge pull requests. Take a look at the labels and label use cases below:
 
-(WIP)-> Add Image here
 
   * Admin: Used by contributors to call for admin support or revision
 
@@ -117,7 +116,7 @@ Labels help us to keep our work organize and well prioritized. Please use labels
 
   * New Resource: Used by contributors to submit a new lesson or resource
 
-# Contributors Expectations(WIP) :point_up_2:
+# Contributors Expectations :point_up_2:
 
 The outcome of the issue or pull request is likely to fall into one of three buckets:
 

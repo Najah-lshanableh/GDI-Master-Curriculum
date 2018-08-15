@@ -19,4 +19,4 @@ Included in this repository :
 # Contributing and Reporting Issues :thumbsup:
 We highly encourage active collaboration from all the GDI chapters. In order to contribute, fork this repository directly.  We hope you'll have curricular improvements or suggestions to submit, via pull request or issue, to enhance and make our curriculum better.
 
-Please checkout our [contribution guidelines](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/contributing-guide.md) for more details.
+Please checkout our [contributing guide](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/contributing-guide.md) for more details.
