@@ -2,14 +2,12 @@
 ---
 
 # GDI Teaching Materials :rocket:
-Welcome to Girl Develop It's Master Curriculum Materials!
+Welcome to Girl Develop It Master Curriculum Materials!
 
-This repository contains all the consolidated and standardized materials GDI provides its chapter leaders, teachers, ta's and students. It's
-
----
+This repository contains all the consolidated and standardized materials GDI provides its chapter leaders, teachers, ta's and students.
 
 Included in this repository :
-1. Curriculum - instructions and materials for all lessons, workshops; corresponding materials include slides in Reveal.js format and additional resources for students.
+1. Curriculum - Materials for all lessons, workshops; corresponding materials include slides in Reveal.js format and additional resources for students.
 
 2. [Resources](https://github.com/girldevelopit/GDI-Master-Curriculum/tree/master/resources) - diverse supplementary resources, templates (for lesson plans, exercises, code of conduct, marketing materials etc.), and style guide.
 

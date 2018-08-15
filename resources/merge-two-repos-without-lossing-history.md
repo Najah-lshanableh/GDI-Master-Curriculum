@@ -1,8 +1,8 @@
-# How to Merge Repost Without Losing History (without using submodules) :blue_book:
+# How to Merge Repo Without Losing History (without using submodules) :blue_book:
 If you want an old project(repo) to be a subdirectory of a new project  such is the case here in GDI where we want to merge individual curriculum topics into the master curriculum repository, use this guide to help you.
 
 Background:
-While developing the master curriculum repository, I wanted to merge one of the individual html-css intro repository into it but without losing the history. Most of the resources I found online, suggest using [submodules](https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories) which goal is to bring in source code from external libraries or projects and where you want to suggest or shop changes to bring back to them and the whole process is kind of complex.
+While developing the master curriculum repository, I wanted to merge one of the individual html-css intro repository into it but without losing the contribution log history. Most of the resources I found online, suggest using [submodules](https://stackoverflow.com/questions/1425892/how-do-you-merge-two-git-repositories) which goal is to bring in source code from external libraries or projects and where you want to suggest or ship changes to bring back to them and the whole process is kind of complex.
 
 The good news is that Git provides an easier alternative to accomplish this task. Our goal is to connect two repositories together and have them look as they had always being in one repository, and we don't want to lose the individual project history in the process and neither in this case trying to make changes or ship things back to the individual old repository and instead from now on to maintain all the code here in the master curriculum while keeping the fill log of the old repository which is useful so we can understand why things were done that way they are.
 
@@ -10,7 +10,7 @@ The good news is that Git provides an easier alternative to accomplish this task
 
 ## Steps:
 * Step 1: Clone projects:
-    ```
+  ```
   git clone git@github.com:girldevelopit/GDI-Master-Curriculum.git
   git clone git@github.com:girldevelopit/old-individual-project.git
   ```
@@ -50,6 +50,8 @@ The good news is that Git provides an easier alternative to accomplish this task
   # Push changes upstream
   git push
   ```
+  What we’re doing is add a remote to the old project, and merge everything into the GDI-Master-Curriculum. Since git doesn’t allow merges without a common history, we’ll have to force it using the allow-unrelated-histories option.
+
   Troubleshooting :information_desk_person: :bulb:: If you are not familiar with VIM and when you commit your changes, you see a terminal window that opens with a vim window and with a message already pre-populated, then in order to save that message and exit from vim, just follow these steps:
    1. Press Esc key
    2. Press : (colon). The cursor should reappear at the lower left corner of the screen beside a colon prompt.
@@ -57,8 +59,6 @@ The good news is that Git provides an easier alternative to accomplish this task
       * type :wq!
       * press Enter key):
    4. This will quit the editor, and all changes you have made to the document will be saved to the file.
-
-  What we’re doing is add a remote to the old project, and merge everything into the GDI-Master-Curriculum. Since git doesn’t allow merges without a common history, we’ll have to force it using the allow-unrelated-histories option.
 
   Optional :ok_woman:: Because there is a good practice to have a well maintained repo, you could also do everything in a branch which we will merge after a code review is done.
 
