@@ -17,15 +17,15 @@ Included in this repository :
 ## [Who We Are](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/who_we_are.md)
 Mission, Vision, Values,  Membership, How to Support GDI.
 
-## Code of Conduct
+## [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
 This is the current GDI Code of Conduct.  Please make sure to have a copy or link to it on your event page.
 
-## Contributing
+##[Contributing](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)
 We welcome and highly encourage active collaboration from all the GDI chapters. Contributing back should take the form of issues or pull requests depending on the nature of the contribution. Workshops-related feedback or questions should be submitted via GDI helpdesk.
 
 * Outline of how someone you can contribute:
     * Fork this repo
-    * Follow the contributing guidelines.
+    * Follow the [contributing guidelines]((https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)).
     * Make a pull request
     * Get your pull request approved - success!
     * Add yourself as a contributor under the credits section
@@ -42,8 +42,9 @@ Please checkout our [contributing guidelines](https://github.com/girldevelopit/G
 
 ## Resources
   * [GDI Contributing Guidelines](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)
+  * [Who We Are](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/who_we_are.md)
   * GDI Teacher Training Guide
-  * GDI Teacher Handbook
+  * [GDI Teacher Handbook](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/gdi_teachers_handbook.md)
   * [About GDI Audience](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/about-gdi-audience.md)
   * [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
   * [Guide in How to Merge a Repo into GDI Master Curriculum without submodules](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/merge-two-repos-without-lossing-history.md)
