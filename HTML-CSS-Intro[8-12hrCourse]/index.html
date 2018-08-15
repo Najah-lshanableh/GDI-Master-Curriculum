@@ -1,0 +1,3369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Girl Develop IT</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed" rel="stylesheet">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+
+            <!-- slide 00 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>SETUP INSTRUCTIONS FOR INSTRUCTOR</h4>
+                    <div class="slide-gdi">
+                        <p>Welcome to GDI!</p>
+                        <ul>
+                            <li>Please write your name and your TA's name on the whiteboard and say hello to your new classmates.</li>
+                            <li>Wifi and password</li>
+                            <li>If necessary, open the slack for this class or if there is another communication medium where
+                                you will be sharing information during the workshop</li>
+                            <li>Make sure you've downloaded a text editor and your prefered browser (i.e. Chrome).</li>
+                            <li>Create a free CodePen account so you can save any exercises or examples that you want to share
+                                with the class</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 01 -->
+            <section>
+                <div class="slide-one-container">
+                    <div class="slide-one-logo-container">
+                        <img src="assets/circle-gdi-logo.png" alt="Girl develop IT logo" />
+                    </div>
+                    <p class="text-content">
+                        Girl Develop IT is a nonprofit organization that provides affordable programs for adult women interested in learning web
+                        and software development in a judgement-free environment.
+                    </p>
+                </div>
+            </section>
+
+            <!-- slide 02 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/ClassExpectations.jpg">
+                <div class="slide-full-screen-image">
+                    <h2>Course Expectations</h2>
+                </div>
+            </section>
+
+            <!-- slide 03 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>CLASSROOM CULTURE</h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="img-ctn">
+                            <img style="height: auto; width: 500px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/classroom_culture.png" />
+                        </div>
+                        <div class="slide-gdi">
+                            <p>Let’s all agree to:</p>
+                            <ul>
+                                <li>Avoid bringing distractions into class</li>
+                                <li>Treat each other with respect</li>
+                                <li>Being actively involved</li>
+                                <li>Add more …</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 04 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>CLASSROOM CULTURE</h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="slide-gdi left-text">
+                            <p>Help us help you</p>
+                            <ul>
+                              <li>Pay attention: Multitasking doesn't work, especially for storing new information.</li>
+                              <li>Looking things up isn't always a bad thing: Google is your best friend and also ask questions (Don't be shy!)</li>
+                              <li>Mistakes should be celebrated.</li>
+                              <li>Being optimistic helps you succeed.</li>
+                              <li>Practice, practice, practice.</li>
+                              <li>Use what you know to learn what you don't.</li>
+                              <li>Teaching other people helps you, too.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img style="width: 300px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/help.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 05 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-duration">
+                        <br/>
+                        <h4>INTRO TO</h4>
+                        <h3 class="slide-seven-text large-text-on-color">HTML & CSS</h3>
+                        <h4>(8-12hr. course)</h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 06 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LOGISTICS</h4>
+                    <br />
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Wifi and password</li>
+                            <li>Slack or other communication channel</li>
+                            <li>Codepen link</li>
+                            <li>Where to find the course materials
+                                <ul>
+                                    <li>Student Reference Sheet</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 07 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/MeetYourClassmates.JPG">
+                <div class="slide-full-screen-image">
+                    <h2>Meet Your Classmates</h2>
+                </div>
+            </section>
+
+            <!-- slide 08 -->
+            <section data-background-color="#f05b62" data-background-size="cover">
+                <div class="slide-three-container">
+                    <h4>Introductions</h4>
+                    <ol>
+                        <li>Name</li>
+                        <li>What do you do?</li>
+                        <li>Why are you taking this class?</li>
+                        <li>Fun fact!</li>
+                    </ol>
+                    <p class="bottom-message">If time allows, here are other
+                        <a target="_blank" style="color: indigo !important;" href="https://docs.google.com/document/d/14MYoa2xPpuZaQTcvjUc7fgff10p62c1FCW_ZjyoWMqI/edit?usp=sharing">sample questions</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- slide 09 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS: 8-12hr. COURSE</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">COURSE AT A GLANCE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 10 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>COURSE OVERVIEW</h4>
+                    <br />
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/Overview_2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 11 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>FIRST PART AT GLANCE</h4>
+                    <br />
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/FirstPart_glance.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 12 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>FIRST PART LEARNING OBJECTIVES</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Learn and understand the web development landscape and where HTML & CSS fits in the web ecosystem</li>
+                            <li>Being able to describe the differences between front-end and back-end code</li>
+                            <li>Understand the basic components of HTML & CSS and being able to describe relationship between
+                                elements
+                            </li>
+                            <li>Apply and experiment with HTML tags</li>
+                            <li>Use CSS to add basics styles to a website</li>
+                            <li>Identify, understand, and apply various CSS properties</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 13 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FINAL PROJECT AT FIRST GLANCE</h4>
+                    <div>
+                        <img style="max-width: 800px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/final_project_8-12hr.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 14 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">INTRO TO FRONT-END</h3>
+                        <h3 class="slide-seven-text large-text-on-color">DEVELOPMENT</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 15 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>AGENDA</h4>
+                    <div class="slide-gdi agenda-container">
+                        <p>Front-End vs Back-End</p>
+                        <p>Intro to Front-End Development</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 16 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WHAT IS FRONT_END</h3>
+                        <h3 class="slide-seven-text large-text-on-color">DEVELOPMENT</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 17 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>Web production workflow - front end</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Take a design and turn it into code and assets</li>
+                            <li>Uses HTML/CSS to create the structure for a page and add styles</li>
+                            <li>Add interactions with Javascript</li>
+                            <li>Other responsibilities: accessibility, performance, cross-browser and cross-device functionality</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/front-end.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 18 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FRONT-END IS MADE UP OF...</h4>
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-css-js.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 19 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>The three amigos: structure, style, behavior</h4>
+                    <br />
+                    <div class="slide-seven-container">
+                        <img style="width: 500px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/structure-style-behavior.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 20 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>Web production workflow - BACKEND</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Give the application/webpage a 'memory'</li>
+                            <li>Talk to the database - getting data, adding and updating data</li>
+                            <li>Authenticate users</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/database-schema-1895779_640.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 21 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FRONT-END VS BACK-END</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/front-end-vs-back-end.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 22 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Describe the role and responsibilities of the front-end</p>
+                                <p>developer. How do these differ from those of the back-end developer?</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>
+                                    <span class="pad-right">1 min</span>
+                                    <span>1. Turn to partner and discuss</span>
+                                </p>
+                                <p>
+                                    <span class="pad-right">2 min</span>
+                                    <span>1. Share with rest of the class</span>
+                                </p>
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Come up with an anology!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 23 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WHAT IS A WEBSITE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 24 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>CLIENT AND SERVER</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/browser.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 25 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CLIENT AND SERVER</h4>
+                    <ul>
+                        <li>Browsers are applications that read code files and use them to render a web page.</li>
+                        <li>Browsers only know how to interpret HTML, CSS, JavaScript.</li>
+                    </ul>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/client_server.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 26 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">SETUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 27 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SETTING UP A PROJECT: USING TEXT EDITOR</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Create a “New Folder”</li>
+                            <li>Name the new folder “gdi_intro_html_css”</li>
+                            <li>Download GDI starter code ( a link provided by your teacher and TA’s)</li>
+                            <li>Save the starter code in the new folder you created</li>
+                            <li>Open the new folder in your text editor (i.e. Sublime, Atom, etc)</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/archive.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 28 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SETTING UP A PROJECT: USING CODEPEN</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Open the codepen link provided by your teacher and ta’s
+                                <a target="_blank" href="http://bit.ly/GDI-introCodePen1">http://bit.ly/GDI-introCodePen1</a>
+                            </li>
+                            <li>“Fork” (i.e. copy) the pen to make your own working version</li>
+                            <li>When your CodePen is ready for sharing, hit “Save” along the top bar to save it and make it ready.</li>
+                            <li>Click “Share” and you’ll get a similar set of options to these.</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/codePen.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 29 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML & CSS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 30 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HOW TO WRITE HTML</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/opening-closing-tag.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 31 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML?</h4>
+                    <ul class="centered-list">
+                        <li>HTML is how we add organization and structure to the content for our page.</li>
+                    </ul>
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/daily_news.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 32 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML?</h4>
+                    <ul class="centered-list">
+                        <li>HTML is how we add organization and structure to the content for our page. Take a look on this CodePen
+                            link to see an example:
+                            <a target="_blank" href="http://bit.ly/2nareWC">http://bit.ly/2nareWC</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <img style="width: 500px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-structure_code.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 33 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HOW TO WRITE CSS</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/css-code-example.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 34 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS CSS?</h4>
+                    <ul class="centered-list">
+                        <li>We use CSS to add styles to the HTML elements on our page. Take a look on this CodePen link to see
+                            an example
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/what-is-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 35 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML BASICS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 36 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div>
+                        <img style="width: 800px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-more-detail.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 37 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-2">
+                        <div>
+                            <img src="assets/html-more-detail-3.png" />
+                        </div>
+                        <div>
+                            <img src="assets/html-more-detail-4.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 38 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-2">
+                        <div>
+                            <img src="assets/html-more-detail-5.png" />
+                        </div>
+                        <div>
+                            <img src="assets/html-more-detail-6.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 39 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">STRUCTURAL MARKUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 40 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Tags</h4>
+                    <div>
+                        <img src="assets/html-syntax-tags.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 41 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Headings</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/h1-h6.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 42 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Lists</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/ul-li.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 43 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>HTML SYNTAX:
+                        <span class="sub-text">Elements with no content + comments + character codes</span>
+                    </h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="img-ctn">
+                            <img src="assets/no-content-tags.png" />
+                        </div>
+                        <div class="slide-gdi">
+                            <p>Examples:</p>
+                            <ul>
+                                <li>&lt;img&gt;</li>
+                                <li>&lt;br&gt;</li>
+                                <li>&lt;hr&gt;</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 44-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Add markup to a html doc</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add markups to the index.html. Use tags such as the &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, and
+                                    &lt;li&gt; tags.
+                                    <br />
+                                    <span style="font-style: italic;">CodePen link:
+                                        <a target="_blank" href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 45 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">SEMANTIC MARKUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 46 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SEMANTIC TAGS: Strong, EM</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/strong-em.png">
+                    </div>
+                    <div>
+                        <ul style="text-align: left;display: block;">
+                            <li class="small-text-list">Default browser styles:
+                                <strong>will be bold</strong> and
+                                <em style="font-style: italic">em would be italic</em>
+                            </li>
+                            <li class="small-text-list">&lt;em&gt; indicates emphasis that may
+                                <em>subtly change</em> the meaning of a sentence:</Li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 47 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ATTRIBUTES</h4>
+                    <div>
+                        <img src="assets/attributes.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 48 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <p style="text-align: left; font-size: 0.6em;">Specify which page you want to link using the href attribute. ‣ Users can click on anything between the
+                        opening and closing &lt;a&gt; tags.
+                    </p>
+                    <div>
+                        <img src="assets/anchor-links.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 49 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <div>
+                        <img src="assets/anchor-link-cntd.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 50-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Finish adding markup to the html doc</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Continue the index.html by adding an &lt;a&gt; tag.
+                                </p>
+                                <p style="font-style: italic;">CodePen link:
+                                    <a target="_blank" href="http://bit.ly/2Kr6PWr"> http://bit.ly/2Kr6PWr </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 51 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML STRUCTURE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 52 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: DOCTYPE</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells browser file is written in latest version of HTML — HTML5</li>
+                        <li>Must be very first thing in HTML file!
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 53 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: &lt;HTML&gt;</h4>
+                    <ul class="block-html-slides">
+                        <li>ALL of our HTML code should go within these tags directly after DOCTYPE</li>
+                        <li>It has an opening and closing tag &lt;html&gt; &lt;/html&gt;</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 54 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: HEAD</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>For behind-the-scenes info used by browser, search engines</li>
+                            <li>Metadata that's not displayed</li>
+                            <li>It’s a good practice to only have one in each HTML file</li>
+                        </ul>
+                        <div>
+                            <img src="assets/html-doc-type.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 55 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: META CHARSET</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells our browser which character set to use and should always use UTF-8</li>
+                        <li>Goes inside of head tags</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 56 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: TITLE</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells browser the name of the site and its used for browser tab, browser bookmarks and search engines</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 57 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: BODY</h4>
+                    <ul class="block-html-slides">
+                        <li>Only one in each HTML file. Wraps all content for our site and it has everything we want displayed
+                            in the browser window.</li>
+                        <li>The body tags &lt;body&gt;&lt;/body&gt; and it contains our HTML elements such as &lt;h1&gt;, &lt;a&gt;,
+                            &lt;p&gt;, etc.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 58-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Understand the basic layout of a HTML doc</p>
+                                <p>Describe relationship between elements</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add HTML boilerplate to index.html with all the tags that we just learned. (You will add
+                                    content later!)
+                                </p>
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Discuss with a partner the role and responsibilities of the front-end developer. How is it
+                                    different from the back-end developer? Come up with an analogy to describe the anatomy
+                                    of a website using html and css. CodePen link:
+                                    <a target="_blank" href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 59 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML: IMAGES</h4>
+                    <ul class="block-html-slides">
+                        <li>Images are added to the page with the img element. There are two required attributes: “src and alt”</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-images.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 60 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Review our sample file and your index.html and plan out structure with a partner.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add markups, use at least 4 tags discuss in class.</p>
+                                <p>Implement the &lt;hr&gt;, &lt;br&gt; element&lt;/p&gt;
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Google and implement &lt;nav&gt;, &lt;footer&gt;, and &lt;header&gt; elements in your file.
+                                    CodePen link:
+                                    <a target="_blank" href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 61 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>HTML LEARNING OBJECTIVES CHECKLIST</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Learn and understand the web development landscape and where HTML & CSS fits in the web ecosystem</li>
+                            <li>Being able to describe the differences between front-end and back-end code</li>
+                            <li>Understand the basic components of HTML & CSS and being able to describe relationship between
+                                elements
+                            </li>
+                            <li>Apply and experiment with HTML tags</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 62 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color" style="text-align: center!important;">CSS BASICS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 63 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-3">
+                        <div>
+                            <img src="assets/css-zen-1.png" />
+                        </div>
+                        <div>
+                            <img src="assets/css-zen-2.png" />
+                        </div>
+                        <div>
+                            <img src="assets/css-zen-3.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 64 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS CSS?</h4>
+                    <ul class="block-html-slides">
+                        <li>Short for Cascading Style Sheet, CSS is the language used to add style to HTML elements.</li>
+                        <li>CSS is what handles the presentation layer of our webpage.</li>
+                        <li>CSS allows us to associate style rules with HTML elements.</li>
+                    </ul>
+                    <div class="image-grid">
+                        <div class="col-1-3">
+                            <img src="assets/what-css-1.png" />
+                        </div>
+                        <div class="col-2-3">
+                            <img src="assets/what-css-2.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 65 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX</h4>
+                    <div>
+                        <img src="assets/css-syntax.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 66 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX: SELECTOR</h4>
+                    <ul class="block-html-slides">
+                        <li>CSS selectors are used to "find" (or select) HTML elements based on their element name, id, class,
+                            attribute, and more.</li>
+                        <li>The element selector selects elements based on the element name.</li>
+                        <li>You can select all &lt;h1&gt; elements on a page like this (in this case, all &lt;h1&gt; elements
+                            will have a yellow text color)</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-selector.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 67 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX: PROPERTY & VALUE</h4>
+                    <ul class="block-html-slides">
+                        <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                        <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                        <li>In the following example all &lt;h1&gt; elements will have yellow text color and a font size of 16px.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-property-value.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 68 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>USING INTERNAL CSS</h4>
+                    <ul class="block-html-slides">
+                        <li>You can include CSS rules by placing them inside a &lt;style&gt; element, which usually sits inside
+                            the &lt;head&gt;.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/internal-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 69 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>USING EXTERNAL CSS</h4>
+                    <ul class="block-html-slides">
+                        <li>&lt;link&gt; — tells browser where to find the CSS file that should be used to style the page.</li>
+                        <li>Should live inside the &lt;head&gt; of the document.</li>
+                        <li>The syntax within the &lt;link&gt; tag means:
+                            <ul>
+                                <li class="nested-li-font-size">
+                                    <strong>href: </strong>path to the CSS file</li>
+                                <li class="nested-li-font-size">
+                                    <strong>rel: </strong>relationship between the HTML page and the file it is linked to.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/external-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 70 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>INTERNAL VS EXTERNAL CSS</h4>
+                    <p>BENEFITS OF USING AN EXTERNAL STYLESHEET:</p>
+                    <ul class="block-html-slides">
+                        <li>Multiple pages can use same stylesheet (Don't repeat yourself!)</li>
+                        <li>Only have to make changes in one file</li>
+                        <li>Keep content separate from presentation</li>
+                    </ul>
+                    <div>
+                        <img src="assets/internal-vs-external-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 71 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Practice adding a css file, external link and a css property</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add a &lt;link&gt; to the file in the head of your index.html file (is this a relative or
+                                    absolute path?) It should look like this:</p>
+                                <p>&lt;link rel=”stylesheet” href=”css/style.css”&gt;</p>
+                                <p style="font-style: italic">CodePen link:
+                                    <a target="_blank" href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 72 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">COLOR</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 73 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/color.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 74 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR</h4>
+                    <div class="all-aligned-left">
+                        <p>
+                            <strong>RGB VALUES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Values for red, green and blue are expressed as numbers between 0 and 255 (i.e. rgb(72,209,204).</li>
+                            </ul>
+                        </div>
+                        <p>
+                            <strong>HEX CODES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Represent values for red, green and blue in hexadecimal (base 16) code (i.e. #48D1CC).</li>
+                            </ul>
+                        </div>
+                        <p>
+                            <strong>COLOR NAMES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Colors are represented by predefined names. They are not used very much but</li>
+                                <li>are helpful for basic colors such as black and white.
+                                    <a target="_blank" href="https://www.w3schools.com/colors/colors_names.asp">Full list of color names</a>. (i.e. Medium Turquoise)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 75 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR: OPACITY</h4>
+                    <p style="text-align: left;">RGB</p>
+                    <ul class="block-html-slides">
+                        <li>RGBA works the same as RGB, except that it takes a 4th value called 'alpha'.</li>
+                        <li>This is a value between 0 and 1 which can be used to determine a color's opacity on the page.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/color-opacity.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 76-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p style="margin: 0px; font-size: 0.7em;">Add the CSS rule below to the CSS file:
+                                    <code>body {background-color: turquoise;}</code>
+                                </p>
+                                <p style="margin: 0px; font-size: 0.7em;">*check your page in the browser and see what happens</p>
+                                <p style="margin: 0px; font-size: 0.7em;">Change the text color for the body to #FFFFFF</p>
+                                <p style="margin: 0px; font-size: 0.7em;">Change the text color for the paragraph element to #EB7F00.
+                                    <span style="font-style: italic;"></span>CodePen link:
+                                    <a target="_blank" href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 77 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">TYPE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 78 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/text-align.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 79 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/font-weight.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 80 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FONT-FAMILY</h4>
+                    <ul class="block-html-slides">
+                        <li>We can provide a comma-separated list with our preferred font-family, followed by "fallback" fonts.</li>
+                        <li>We usually want to end this list with either 'serif' or 'sans-serif'.</li>
+                        <li>Some common system fonts:</li>
+                    </ul>
+                    <table>
+                        <tr>
+                            <td>Georgia</td>
+                            <td>Arial</td>
+                        </tr>
+                        <tr>
+                            <td>Times</td>
+                            <td>Verdana</td>
+                        </tr>
+                        <tr>
+                            <td>Times New Roman</td>
+                            <td>Helvetica</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <img src="assets/font-family.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 81 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>
+                                    <p style="font-size: 0.7em;">Center the h3</p>
+                                    <p style="font-size: 0.7em;">Change the font-size of the paragraph element to 20px and the font-weight to bold</p>
+                                    <p style="font-size: 0.7em;">Change the text color for the paragraph element to #EB7F00</p>
+                                    <p style="font-size: 0.7em;">Bonus: Try using a Google web font on your page. CodePen link:
+                                        <a target="_blank" href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 82 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">BOX MODEL</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 83 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS: BOX MODEL</h4>
+                    <div class="learning-resources">
+                        <ul>
+                            <li>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking
+                                about design and layout.</li>
+                            <li>The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                                margins, borders, padding, and the actual content.</li>
+                            <li>Parts:
+                                <ul>
+                                    <li>
+                                        <strong>Content - </strong>The content of the box, where text and images appear</li>
+                                    <li>
+                                        <strong>Padding - </strong>Clears an area around the content. The padding is transparent</li>
+                                    <li>
+                                        <strong>Border - </strong>A border that goes around the padding and content</li>
+                                    <li>
+                                        <strong>Margin - </strong>Clears an area outside the border. The margin is transparent</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="assets/box-model-example.png">
+                </div>
+            </section>
+
+            <!-- slide 84 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER</h4>
+                    <div>
+                        <img src="assets/border-1.png">
+                    </div>
+                    <p>Every box has a border, even if it's not visible or specified to be 0 px wide</p>
+                </div>
+            </section>
+
+            <!-- slide 85 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER</h4>
+                    <div>
+                        <img src="assets/box-model-border.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 86 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER SHORTHAND</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/border.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 87 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: MARGIN</h4>
+                    <div>
+                        <img src="assets/margin.png">
+                    </div>
+                    <p>Margins sit outside the border. You can set the width of a margin to create a gap between the borders
+                        of two adjacent boxes</p>
+                </div>
+            </section>
+
+            <!-- slide 88 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: MARGIN SYNTAX</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/margin.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 89 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: PADDING</h4>
+                    <div>
+                        <img src="assets/padding-87.png">
+                    </div>
+                    <p>Padding is the space between the border of a box and any content contained within it</p>
+                </div>
+            </section>
+
+            <!-- slide 90 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: PADDING SYNTAX</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/padding.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 91 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: INTERACTIVE MODEL</h4>
+                    <p style="text-align: left !important;">There are differents tools online like this one where you can see an interactive model of the CSS box
+                        model
+                    </p>
+                    <div>
+                        <img src="assets/interactive-model.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 92 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>
+                                    <p>Add some margin, border and padding to an element in your doc</p>
+                                    <p>Add an appropriate border to an image in your doc</p>
+                                    <p>CodePen link:
+                                        <a target="_blank" href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 93 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>COURSE OVERVIEW</h4>
+                    <br />
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/Overview_2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 94 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>SECOND PART AT GLANCE</h4>
+                    <br />
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/SecondPart_glance.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 95 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>SECOND PART LEARNING OBJECTIVES</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Understand Inheritance in CSS</li>
+                            <li>Learn, apply and experiment adding classes and ids to HTML elements and apply CSS styles to elements
+                                based on class and id</li>
+                            <li>Being able to work using a class and understand when to use a class vs an id</li>
+                            <li>Apply CSS to elements based on their relationships</li>
+                            <li>Differentiate between block and inline elements</li>
+                            <li>Learn and use HTML5 structural elements to properly organize your page</li>
+                            <li>Understand and experiment creating a multi-column layout with flexbox</li>
+                            <li>Learn about opportunities to continue learning web-development with GDI and outside of GDI</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 96 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color" style="text-align: center !important">REVIEW</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 97 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Tags</h4>
+                    <div>
+                        <img src="assets/html-syntax-tags.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 98 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Heading & Paragraphs</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intermediate-html-css/h1-h6-p.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 99 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Lists</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/ul-li.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 100 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ATTRIBUTES</h4>
+                    <div>
+                        <img src="assets/attributes.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 101 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <p style="text-align: left; font-size: 0.6em;">Specify which page you want to link using the href attribute.
+                        <br/> ‣ Users can click on anything between the opening and closing &lt;a&gt; tags.
+                    </p>
+                    <div>
+                        <img src="assets/anchor-links.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 102 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <div>
+                        <img src="assets/anchor-link-cntd.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 103 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX</h4>
+                    <div>
+                        <img src="assets/css-syntax.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 104 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>USING EXTERNAL CSS</h4>
+                    <ul class="block-html-slides">
+                        <li>&lt;link&gt; — tells browser where to find the CSS file that should be used to style the page.</li>
+                        <li>Should live inside the &lt;head&gt; of the document.</li>
+                        <li>The syntax within the &lt;link&gt; tag means:
+                            <ul>
+                                <li class="nested-li-font-size">
+                                    <strong>href: </strong>path to the CSS file</li>
+                                <li class="nested-li-font-size">
+                                    <strong>rel: </strong>relationship between the HTML page and the file it is linked to.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/external-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 105 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/text-align.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 106 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/font-weight.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 107 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS: BOX MODEL</h4>
+                    <div class="learning-resources">
+                        <ul>
+                            <li>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking
+                                about design and layout.</li>
+                            <li>The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                                margins, borders, padding, and the actual content.</li>
+                            <li>Parts:
+                                <ul>
+                                    <li>
+                                        <strong>Content - </strong>The content of the box, where text and images appear</li>
+                                    <li>
+                                        <strong>Padding - </strong>Clears an area around the content. The padding is transparent</li>
+                                    <li>
+                                        <strong>Border - </strong>A border that goes around the padding and content</li>
+                                    <li>
+                                        <strong>Margin - </strong>Clears an area outside the border. The margin is transparent</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="assets/box-model-example.png">
+                </div>
+            </section>
+
+            <!-- slide 108 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>GOOGLE FONTS</h4>
+                    <ul class="block-html-slides">
+                        <li>Google Fonts offers another option for alternative fonts that we can use and it allow us to unsure
+                            that all users can see the same font.</li>
+                        <li>How to use Google fonts?
+                            <ul>
+                                <li class="nested-li-font-size">
+                                    Visit
+                                    <a target="_blank" style="color: #0097a7;" href="https://fonts.google.com/">Google Fonts</a>
+                                </li>
+                                <li class="nested-li-font-size">Select the font/fonts that you would like to use by clicking on the “+” sign</li>
+                                <li class="nested-li-font-size">Click the @import tab</li>
+                                <li class="nested-li-font-size">Copy the code inside of the &lt;style&gt; tags and follow the instructions (in CodePen, place
+                                    the code at the TOP of the CSS panel)</li>
+                                <li class="nested-li-font-size">To use the new font, use the font-family property and the name of the font within quotes:</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <div> -->
+                        <!-- <img src="http://via.placeholder.com/700X350"> -->
+                    <!-- </div> -->
+                </div>
+            </section>
+
+            <!-- slide 109 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-duration">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">MORE</h3>
+                        <h3 class="slide-seven-text large-text-on-color">HTML & CSS</h3>
+                        <h3 class="slide-seven-text large-text-on-color">BASICS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 110 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">PAGE STRUCTURE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 111 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>PAGE STRUCTURE: RELATIONSHIPS</h4>
+                    <ul class="block-html-slides">
+                        <li>We can use similar terms to describe a relationship between our family members to describe the relationship
+                            between HTML elements.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/relationships.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 112 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>PAGE STRUCTURE: NESTING</h4>
+                    <ul class="block-html-slides">
+                        <li>In a list, we can say that the tag &lt;ul&gt; is the parent of the tags &lt;li&gt; or viceversa where
+                            the tag &lt;li&gt; is a children of &lt;ul&gt;</li>
+                    </ul>
+                    <div>
+                        <img src="assets/nesting-113.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 113 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>PAGE STRUCTURE: NESTING</h4>
+                    <ul class="block-html-slides">
+                        <li>We can also say that all of our HTML content, our &lt;h1&gt;, &lt;ul&gt;, &lt;li&gt; are wrapped
+                            by the body or nested inside the body since they are within the opening and closing body tags</li>
+                    </ul>
+                    <div>
+                        <img src="assets/nesting-114.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 114 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>PAGE STRUCTURE: DOM TREE</h4>
+                    <br />
+                    <div>
+                        <img src="assets/dom-tree.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 115 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>PAGE STRUCTURE: INDENTATION</h4>
+                    <ul class="block-html-slides">
+                        <li>A good practice is to indepnt any tags that are nested inside other tags because this will make easier
+                            our code to be read and it will help us see if we are forgetting to close tags.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/indentation.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 116 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">NESTED SELECTORS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 117 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SELECTORS: MOST COMMON</h4>
+                    <br />
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intermediate-html-css/selector.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 118 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SELECTORS</h4>
+                    <p>Try reading right to left. The element last element (a) in the selector string is always the one that
+                        we are styling</p>
+                    <div>
+                        <img src="assets/selectors-2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 119 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SELECTORS</h4>
+                    <p>Which element here will be italic?</p>
+                    <div>
+                        <img src="assets/selectors-3.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 120 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">CLASSES & IDS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 121 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CLASSES & IDS</h4>
+                    <ul class="block-html-slides">
+                        <li>Classes and IDs allow us to add labels to elements so we can target them in our CSS.</li>
+                        <li>
+                            <strong>Classes:</strong> Used to select several elements together. Elements can have multiple classes.</li>
+                        <li>
+                            <strong>IDs:</strong> Used to target ONE specific element. Each element can only have ONE id (important:
+                            two elements on the same page cannot have the same id)</li>
+                    </ul>
+                    <div>
+                        <img src="assets/classes-ids.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 122 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CLASSES</h4>
+                    <p>Classes are used to group elements together.</p>
+                    <div>
+                        <img src="assets/classes-only.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 123 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>IDs</h4>
+                    <p>Ids are unique where each element can have only one ID and each page can have only one element with that
+                        ID
+                    </p>
+                    <div>
+                        <img src="assets/ids-only.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 124 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use classes and IDs to target elements</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Follow the instructions under “Now You Try” in this
+                                    <a target="_blank" href="https://codepen.io/e   vagabriela/pen/pZqrBj">CodePen link.</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 125 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">CSS CASCADING NATURE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 126 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature</h4>
+                    <ul class="block-html-slides">
+                        <li>CSS is an acronym for Cascading Style Sheets, which indicates the importance of cascade.</li>
+                        <li>Cascading indicates that the order of CSS rules matter. Which selectors win out in the cascade depends
+                            on the following factors such as specificity, source order or importance.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-nature.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 127 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CLASSES & IDS: CSS Cascading Nature</h4>
+                    <p>How classes and IDs fit on the CSS cascading nature?</p>
+                    <ul class="block-html-slides">
+                        <li>CSS rules cascade downward until they are canceled out by another rule. In other words, it goes from
+                            general to more specific.</li>
+                        <li>CSS rules are able to override one another and cancel each other out, depending on their order.</li>
+                        <li>The more specific rule will take precedence over the more general rule.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-nature-2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 128 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading: Specificity</h4>
+                    <ul class="block-html-slides">
+                        <li>Specificity is the means by which browsers decide which css property values are the most relevant
+                            to an element and, therefore, will be applied. If there are two or more conflicting CSS rules
+                            that point to the same element, the browser follows some rules to determine which one is most
+                            specific and therefore wins out.</li>
+                        <li>It’s usually the reason why your CSS-rules don’t apply to some elements, although you think they
+                            should.
+                        </li>
+                        <li>In other words, think of specificity as a score or rank that determines which style declaration are
+                            ultimately applied to an element (i.e. the ID selectors are highly specific comparing to a universal
+                            selector).
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-specificity.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 129 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 130 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game-2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 131 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game-3.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 132 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game-4.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 133 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game-5.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 134 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/specificity-game-6.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 135 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading: Specificity</h4>
+                    <div style="display: flex;">
+                        <p style="flex:1;">Specificity: The more specific rule will take precedence over the more general rule.</p>
+                        <img style="flex:1;" src="assets/specificity-half.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 136 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: LAST RULE!</h4>
+                    <p>WHAT HAPPENS IF THERE IS A TIE?</p>
+                    <div>
+                        <img src="assets/last-rule.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 137 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: Specificity Game</h4>
+                    <div>
+                        <img src="assets/TIED.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 138 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading Nature: LAST RULE!</h4>
+                    <p>WHAT HAPPENS IF THERE IS A TIE?</p>
+                    <p>If two selectors have the same importance and specificity, the one that comes later in the stylesheet
+                        will take precedence.</p>
+                    <div>
+                        <img src="assets/last-rulte-2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 139 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS Cascading: Specificity</h4>
+                    <div style="display: flex;">
+                      <a target="_blank" href="https://stuffandnonsense.co.uk/archives/css_specificity_wars.html"><img style="flex:1;" src="assets/specificity-half-1.png"></a>
+                      <a target="_blank" href="http://cssspecificity.com/">  <img style="flex:1;" src="assets/specificity-half-2.png"></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 140 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Explain CSS cascading</p>
+                                <p>Understand "specificity" - i.e. when multiple style rules apply to the same element, how
+                                    can we figure out which one will be applied?</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>4 min approx. to discuss in pairs + 2 min approx. to have a few pairs share with the class</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Discuss with a partner about the key objectives, can you explain each of them?</p>
+                                <p>A few pairs share with the class</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 141 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS classes and Id's to target elements</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>
+                                        Open the classes and Id’s complete exercises folder under the classes_and_id lab folder or open this CodePen Link:
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/RBvWRN">https://codepen.io/evagabriela/pen/RBvWRN</a>
+                                        and follow the instructions/comments found in the style.css file
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 142 -->
+            <!-- <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>DIRECTIONS:</h2>
+                                <ul>
+                                    <li>
+                                        Style that class or id in your CSS. Make the font-style: italic and the background-color: #CCBB75
+
+                                    </li>
+                                    <li>
+                                        Style the list item that says "I am special!". This element gets special/unique styles and this is the only time we'll be
+                                        adding those styles to our site.
+
+                                    </li>
+                                    <li>
+                                        You'll want to:
+                                        <ul>
+                                            <li>
+                                                Decide whether to use a class or id for the list item.
+                                            </li>
+                                            <li>
+                                                Add the class or id to the
+                                                <li>
+                                                    in your html. Call it special.
+                                                </li>
+                                                <li>
+                                                    Style that class or id in your CSS.
+                                                </li>
+                                                <li>
+                                                    Make the font-size: 50px and the color: pink
+                                                </li>
+                                        </ul>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- slide 142 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">USING DEVELOPER TOOLS TO INSPECT ELEMENTS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 143 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>DEVELOPER TOOLS: INSPECTOR</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>There are several ways to open your browser dev tools:
+                                <ul>
+                                    <li>Right click on an element and click “inspect”</li>
+                                    <li>In Chrome, go to view > developer > Developer Tools</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img style="max-width: 400; height: auto;" src="assets/inspector.png">
+                    </div>
+                    <p style="text-align: center; position: absolute; bottom: 0px;">You can move the dock to the different sides. For example to the bottom of the window.</p>
+                </div>
+            </section>
+
+            <!-- slide 144 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>DEVELOPER TOOLS: PICKING AN ELEMENT FROM THE DOM</h4>
+                    <ul>
+                        <li>Choosing an element to inspect is possible by clicking on the element in the “Elements” Tab</li>
+                    </ul>
+                    <div>
+                        <img src="assets/picking-element.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 145 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>DEVELOPER TOOLS: EXPERIMENT WITH CSS STYLES</h4>
+                    <ul>
+                        <li>In the “styles” panel, you can see what styles has been applied to an element by default or if you
+                            have added them.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/dev-tools-with-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 146 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>DEVELOPER TOOLS: VISUALIZING DIMENSIONS</h4>
+                    <ul>
+                        <li>If you hover over an element on the page, you can get information about the element such as it’s
+                            dimensions, margin, padding,etc.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/visualizing-dimensions.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 147 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Learn, apply and experiment using chrome tools - inspector</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>8 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>
+                                        Open the file call inspect_element_exercise or the following CodePen link:
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/YjByVP">https://codepen.io/evagabriela/pen/YjByVP</a> and using the inspector, answer the
+                                        questions found in the index.html file.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 149 -->
+            <!-- <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>DIRECTIONS:</h2>
+                                <ul>
+                                    <li>
+                                        What are the margin-top of the h2 elements?
+                                    </li>
+                                    <li>
+                                        What is the background color for each li? how much margin and padding does it have?
+                                    </li>
+                                    <li>
+                                        What are the dimensions of the img?
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- slide 148 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LEARNING OBJECTIVES CHECKLIST: HALF POINT</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Understand Inheritance in CSS</li>
+                            <li>Learn, apply and experiment adding classes and ids to HTML elements and apply CSS styles to elements
+                                based on class and id</li>
+                            <li>Being able to work using a class and understand when to use a class vs an id</li>
+                            <li>Apply CSS to elements based on their relationships</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 149 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LEARNING OBJECTIVES (CONTINUE)</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Differentiate between block and inline elements</li>
+                            <li>Learn and use HTML5 structural elements to properly organize your page</li>
+                            <li>Understand and experiment creating a multi-column layout with flexbox</li>
+                            <li>Learn about opportunities to continue learning web-development with GDI and outside of GDI</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 150 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HALF POINT REVIEW
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 151 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Review HTML & CSS syntax, page structure, classes & Ids, CSS cascading nature and specificity.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>8 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>
+                                        When would we use a class vs an id?
+                                    </li>
+                                    <li>
+                                        What are the steps for adding classes and ids and then styling elements with classes and ids in HTML/CSS?
+                                    </li>
+                                    <li>
+                                        Why is inheritance useful when styling a webpage?
+                                    </li>
+                                    <li>
+                                        We want to style an &lt;a&gt; that is descendent of a &lt;p&gt; in our CSS. Write out this selector
+
+                                    </li>
+                                    <li>
+                                        We want to style a &lt;p&gt; that is a descendent of a container with an id "about". Write out this selector
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 152 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">DISPLAY
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 153 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>DISPLAY: BLOCK LEVEL ELEMENTS</h4>
+                    <p style="text-align: left !important; font-size: 0.6em;">Block-level elements will always start on a new line.
+                    </p>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">Example:</li>
+                        <ul>
+                            <li class="small-text-list">&lt;h1&gt;-&lt;h6&gt;&lt;/h6&gt;</li>
+                            <li class="small-text-list">&lt;ul&gt;</li>
+                            <li class="small-text-list">&lt;li&gt;</li>
+                            <li class="small-text-list">&lt;p&gt;</li>
+                            <li class="small-text-list">&lt;ol&gt;</li>
+                            <li class="small-text-list">&lt;div&gt;</li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <img src="assets/block-level-elements.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 154 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>DISPLAY: INLINE ELEMENTS</h4>
+                    <p style="text-align: left !important; font-size: 0.6em;">Inline elements will always appear to continue on the same line as their neighboring elements.</p>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">Example:</li>
+                        <ul>
+                            <li class="small-text-list">&lt;a&gt;</li>
+                            <li class="small-text-list">&lt;image&gt;</li>
+                            <li class="small-text-list">&lt;span&gt;</li>
+                            <li class="small-text-list">&lt;em&gt;</li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <img src="assets/inline-elements.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 155 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>KEY DIFFERENCES BETWEEN BLOCK AND INLINE ELEMENTS</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">The most noticeable properties are width, height, margin and padding.</li>
+                        <li class="small-text-list">If you try to add dimensions to an inline element, some properties will be applied but others no
+                            or will partially be applied.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/block-inline-diff.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 156 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>HOW TO CHANGE ELEMENTS DISPLAY INLINE OR BLOCK?</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">You can change whether an element is display as inline or block element by using the display property.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/how-to-make-inline-block.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 157 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>DISPLAY: INLINE AND INLINE-BLOCK</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">When we change the display of an element to be inline, the elements will sit next to each other.
+                            But if you use the property display: inline; you can’t set a width, height or margin and padding
+                            on top and bottom.</li>
+                        <li class="small-text-list">In order to be able to set a width, height and margin, we can use a property call display: inline-block;</li>
+                    </ul>
+                    <div>
+                        <img src="assets/display-inline-inlin-block.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 158 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>DISPLAY: NONE</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">If your goal is to hide an element, the property display: none; will hide the elements from the page.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/display-none.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 159 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Get practice using the "display property</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>
+                                        Open the display folder under the starter code or the CodePen link:
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/EprVvr">https://codepen.io/evagabriela/pen/EprVvr</a> and follow the instructions in the
+                                        style.css file.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 160 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">CENTERING
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 161 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>CENTERING</h4>
+                    <div class="block">
+                        <div class="content-right-small">
+                            <ul>
+                                <li>
+                                    <strong>CENTERING TEXT:</strong>
+                                </li>
+                                <ul>
+                                    <li>Inline or Inline-block elements (i.e. span, a, etc)</li>
+                                    <ul>
+                                        <li>Option 1: Set
+                                            <strong>text-align: center;</strong> on the parent</li>
+                                        <li>Option 2: Update display to block and then set
+                                            <strong>text-align: center;</strong> on the element</li>
+                                    </ul>
+                                    <li>Block-level element (i.e. h1, li, p, etc)</li>
+                                    <ul>
+                                        <li>Set
+                                            <strong>text-align: center;</strong> on the element</li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                            <br />
+                            <ul>
+                                <li>
+                                    <strong>CONTENT FOR AN IMAGE:</strong>
+                                </li>
+                                <ul>
+                                    <li>
+                                        <strong>display: block;</strong> and
+                                        <strong>margin: 0 auto;</strong>
+                                    </li>
+                                </ul>
+                            </ul>
+                            <br />
+                            <ul>
+                                <li>
+                                    <strong>CONTENT FOR A NON-TEXT BLOCK-LEVEL ELEMENT (i.e. div, section, article, etc):</strong>
+                                </li>
+                                <ul>
+                                    <li>Set a width and margin:0 auto in CSS
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 162 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">DIVS
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 163 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>DIV: GROUPING ELEMENTS</h4>
+                    <div class="block">
+                        <div class="content-right-small">
+                            <ul>
+                                <li>
+                                    <strong>THE &lt;DIV&gt; ELEMENT</strong>
+                                </li>
+                                <ul>
+                                    <li>The &lt;div&gt; element allows us to group a set of HTML elements together into a
+                                        <strong>block-level</strong> box so then we can style that of HTML.</li>
+                                </ul>
+                            </ul>
+                            <br />
+                            <ul>
+                                <li>
+                                    <strong>THE &lt;SPAN&gt; ELEMENT
+                                    </strong>
+                                </li>
+                                <ul>
+                                    <li>
+                                        The
+                                        <span> element acts like the inline equivalent of the
+                                            <div> element. It is used to either:
+                                    </li>
+                                    <ul>
+                                        <li>Style one little piece of text within a larger paragraph</li>
+                                        <li>Contain several inline elements</li>
+                                    </ul>
+                                </ul>
+                            </ul>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                        <!-- <a target="_blank" href="#" style="color:#e06565">Take a look here!</a> -->
+                    </div>
+            </section>
+
+            <!-- slide 164 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML5 STRUCTURAL ELEMENTS
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 165 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>COMPARISON WITH TRADITIONAL HTML LAYOUT</h4>
+                    <div>
+                        <img src="assets/comparison-trad-layout.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 166 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>COMPARISON WITH TRADITIONAL HTML LAYOUT</h4>
+                    <div>
+                        <img src="assets/comparison-trad-html-layout.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 167 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>COMPARISON WITH TRADITIONAL HTML LAYOUT</h4>
+                    <div>
+                        <img src="assets/html5-structural-elements.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 168 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>HTML5 AND DIVS</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">&lt;div&gt; has a place in the HTML5 world.</li>
+                        <li class="small-text-list">You should use &lt;div&gt; when there are no other elements from HTML5 the suits your purpose (i.e.
+                            footer, article,etc).</li>
+                        <li class="small-text-list">Its most common use for a &lt;div&gt; will be fo stylistic purposes (i.e. wrapping some HTML in a
+                            CSS-styled container)</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html5-and-divs.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 169 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Identify content sections</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>8-10 min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>Let's make an sketch drawing a layout:
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            First draw boxes around a content that should live inside a section (a div, header, footer,etc).
+                                        </li>
+                                        <li>
+                                            Find which boxes/divs should have a class or id (Hint: Look for similarities to determine what should be a class).
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 170 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">INTRO TO MULTI-COLUMN LAYOUT
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 171 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>STEPS TO ACHIEVE A MULTI-COLUMN LAYOUT</h4>
+                    <div>
+                        <img src="assets/mult-column-layout.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 172 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Start working with basic steps to create a multi-column layout</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>2-4 min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>Open the index.html under the multi-column exercise folder under the starter code or
+                                        the CodePen link:
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/jpdbZZ">https://codepen.io/evagabriela/pen/jpdbZZ</a> and follow the instructions for steps
+                                        1 and 2 found in the index.html.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 173 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">INTRO FLEXBOX
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 174 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEXBOX: WHAT IT IS?</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">In the past we have use floats to build column layouts, but Flexbox is now considered one of the
+                            best alternatives for grid layouts.</li>
+                        <li class="small-text-list">Flexbox help us create incredible structures in our page and solves a lot of layout issues that float
+                            either causes or can’t solve (or both).</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html5-and-divs.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 175 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEXBOX: INTRO</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">The flex layout is constituted of parent container referred as a
+                            <strong>flex container</strong> and its immediate children which are called
+                            <strong>flex items.</strong>
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/fle-intro.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 176 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEXBOX: INTRO</h4>
+                    <div>
+                        <img src="assets/flex-intro-2.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 177 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEXBOX: HOW DOES FLEXBOX WORK?</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">By default, items are arranged along the main axis, from left to right. This is why your squares
+                            defaulted to a horizontal line once you applied display:flex;
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/flexbox-axis.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 178 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEX CONTAINER: PARENT WRAPPER</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">In order to get started with Flexbox, you need to make your container into a flex container like
+                            the example below:
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/flex-container-parent-wrapper.png">
+                    </div>
+                    <a target="_blank" href="https://codepen.io/evagabriela/pen/RBxmRq" style="color:#0097a7">Take a look!</a>
+                </div>
+            </section>
+
+            <!-- slide 179 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEX DIRECTION</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">
+                            <strong>flex-direction</strong>, let’s you rotate the main axis.
+                        </li>
+                        <li class="small-text-list">There’s an important distinction to make here: flex-direction: column doesn’t align the squares on
+                            the cross axis instead of the main axis. It makes the main axis itself go from horizontal to
+                            vertical.
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/flex-direction.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 180 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>JUSTIFY CONTENT</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">
+                            <strong>justify-content</strong>, controls how you align items on the main axis.
+                        </li>
+                        <li class="small-text-list">There are five commands available to use with
+                            <strong>justify-content:</strong>
+                        </li>
+                        <ul>
+                            <li class="small-text-list">flex-start</li>
+                            <li class="small-text-list">flex-end</li>
+                            <li class="small-text-list">center</li>
+                            <li class="small-text-list">space-around</li>
+                            <li class="small-text-list">space-between</li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <img src="assets/justify-content.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 181 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>ALIGN CONTENT</h4>
+                    <ul style="text-align: left; display: block;">
+                        <li class="small-text-list">
+                            <strong>align-items</strong>, controls how you align items on the cross axis.
+                        </li>
+                        <li class="small-text-list">There are five commands available to use with
+                            <strong>align-items:</strong>
+                        </li>
+                        <ul>
+                            <li class="small-text-list">flex-start</li>
+                            <li class="small-text-list">flex-end</li>
+                            <li class="small-text-list">center</li>
+                            <li class="small-text-list">stretch</li>
+                            <li class="small-text-list">baseline</li>
+                        </ul>
+                    </ul>
+                    <div>
+                        <img src="assets/align-items.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 182 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>FLEXBOX: ALL TOGETHER</h4>
+                    <div>
+                        <img src="assets/flexbox-all-together.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 183 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>STEPS TO ACHIEVE A MULTI-COLUMN LAYOUT</h4>
+                    <div>
+                        <img src="assets/steps-to-multicolumn-layout.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 184 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>MULTI-COLUMN LAYOUT</h4>
+                    <div>
+                        <img src="assets/multi-column-black.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 185 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>HOW DOES FLEXBOX WORK?</h4>
+                    <div>
+                        <img src="assets/how-flexbox-work.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 186 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Start working with basic steps to create a multi-column layout</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>8 min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>Open the index.html under the multi-column exercise folder under the starter code or
+                                        the CodePen link:
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/jpdbZZ">https://codepen.io/evagabriela/pen/jpdbZZ</a> and follow the instructions for steps
+                                        3 and 4 found in the index.html.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 187 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Putting everything together:
+                                </p>
+                                <ul>
+                                    <li>Learn the ability to plan and build a website using everything we have learned</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>10 min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>Recreate this mockup in
+                                        <a target="_blank" href="https://codepen.io/evagabriela/pen/VBQqmK">CodePen.</a>
+                                    </li>
+                                    <ul>
+                                        <li>
+                                            Plan your columns sketching them in a piece of paper
+                                        </li>
+                                    </ul>
+                                    <img src="assets/quotes-activity-mockup.png">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 188 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Putting everything together: Learn the ability to plan and build a website using everything
+                                    we have learned
+                                </p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>20+ min approx.</p>
+                            </div>
+                            <div class="nested-ul-ol-li">
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li>You can either use a text editor or CodePen to work on your final project. Just follow
+                                        the instructions while also developing your CSS code in the style.css file.</li>
+                                    <ul>
+                                        <li>Text Editor: Open the starting code folder.</li>
+                                        <li>CodePen:
+                                            <a target="_blank" href="https://codepen.io/evagabriela/pen/qyLXQP">Option 1: Starter Code</a>
+                                        </li>
+                                    </ul>
+                                    <p style="display: block; text-align: right;">
+                                        <em>Option 1 Solution:
+                                            <a target="_blank" href="https://codepen.io/evagabriela/pen/bjOrmJ">https://codepen.io/evagabriela/pen/bjOrmJ</a>
+                                        </em>
+                                    </p>
+                                    <p style="display: block; text-align: right;">
+                                        <em>Option 2 Solution:
+                                            <a target="_blank" href="https://codepen.io/evagabriela/pen/ZjVJVW">https://codepen.io/evagabriela/pen/ZjVJVW</a>
+                                        </em>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 189 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WRAP UP
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 190 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="learning-resources">
+                        <p>Learning Resources:</p>
+                        <ul class="nested-ul-parent">
+                            <li>
+                                Upcoming GDI workshop, classes and events.
+                            </li>
+                            <li>Helpful online tutorials:
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="https://www.codecademy.com/learn/learn-html">Code Academy</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.w3schools.com/">W3 School</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Other Resources
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Element Index</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://dev.w3.org/html5/html-author/charref">HTML entity codes</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.cheatography.com/martinprins/cheat-sheets/sublime-text-3-osx/">Sublime cheat sheet (Mac)</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.cheatography.com/ceviche/cheat-sheets/sublime-text-3-windows/">Sublime cheat sheet (Windows)</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.inmotionhosting.com/img/infographics/html5_cheat_sheet_tags.png">HTML5 cheat sheet</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.htmldog.com/references/html/tags/">HTML5 element index</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://html5please.com/">HTML5 Please</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 191 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LEARNING OBJECTIVES CHECKLIST: HALF POINT</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Understand Inheritance in CSS</li>
+                            <li>Learn, apply and experiment adding classes and ids to HTML elements and apply CSS styles to elements
+                                based on class and id</li>
+                            <li>Being able to work using a class and understand when to use a class vs an id</li>
+                            <li>Apply CSS to elements based on their relationships</li>
+                            <li>Differentiate between block and inline elements</li>
+                            <li>Learn and use HTML5 structural elements to properly organize your page</li>
+                            <li>Understand and experiment creating a multi-column layout with flexbox</li>
+                            <li>Learn about opportunities to continue learning web-development with GDI and outside of GDI</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 192 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/share_progress.jpg">
+                <div class="slide-full-screen-image--">
+                    <h2>Share your progress with us</h2>
+                </div>
+            </section>
+
+            <!-- slide 193 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">Q&A</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 194 -->
+            <section>
+                <div class="slide-final-container">
+
+                    <div style="display: flex">
+                        <div>
+                            <h2>See you next time!</h2>
+                            <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/see_you_gdi.jpeg">
+                        </div>
+                        <div>
+                            <img src="assets/circle-gdi-logo.png" alt="Girl develop IT logo" />
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div style="display: flex; align-items: center; margin-bottom: 10px; margin-top: 16px;">
+                            <img src="assets/twitter.png">&nbsp;
+                            <a style="font-size: 0.6em !important; color: blue !important; text-decoration: underline;" target="_blank" href="https://twitter.com/girldevelopit">@girldevelopit</a>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img src="assets/facebook.png">&nbsp;
+                            <a style="font-size: 0.6em !important; color: blue !important; text-decoration: underline;" target="_blank" href="https://www.facebook.com/girldevelopit">facebook.com/girldevelopit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            </div>
+
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                align: 'center',
+                width: '100%',
+                height: '100%',
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/search/search.js', async: true },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
+        </script>
+
+</body>
+
+</html>
