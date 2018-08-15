@@ -28,4 +28,41 @@ As a instructor, we also want you to **collaborate with the organizers**. GDI HQ
 
 ## Workshop Lifecycle
 
-(https://s3-us-west-1.amazonaws.com/gdi-general/gdi-teaching-cycle.png)
+![GDI Workshop Lifecycle](https://s3-us-west-1.amazonaws.com/gdi-general/gdi-teaching-cycle.png)
+
+### Plan
+#### 1 month before event:
+* Review the workshop materials and make Pull Requests to close any [issues on Github](https://github.com/girldevelopit/GDI-Master-Curriculum/issues) regarding the curriculum or slides.  Here is our [contributing guide](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md). Communicate with your Co-Instructor to plan curriculum changes together.
+
+* **Answer student questions** posted on the event Meetup page.
+
+#### 2 weeks before the event:
+* Co-instructors: make sure you have coordinated which slides each person is covering
+
+* If the workshop requires physical materials, make sure they will be available onsite
+
+#### 1 day before event:
+* If your chapter manages communication with the students through Slack, Invite students to the Slack #yourworkshoptitle channel by sending them the link (optional).
+
+* Your Chapter Leader or Workshop Coordinator should send an email introducing the TAs and finalizing logistics about the venue. Otherwise, you can gather this information and email them to your TA’s.
+
+#### Promote:
+* **Promote the event!** Once you have a date, venue, and topic, help get the word out! Remember, the more people who attend the workshop, the more students you’ll reach,  the more impact you will make and the more money you’ll make. GDI HQ can promote events and workshops via the national social channels at the request of chapter leaders, but it is powerful for instructors to add a personal touch to the workshop marketing. Students love taking classes with a familiar instructors.
+  * Reach out to your chapter leaders and ask if you can post from their social media accounts.
+
+* **Keep an eye on attendance** to monitor how signups are going. Do some extra promotion if the class signups are slow. This will also help you learn the students’ names ahead of time.
+
+* **Ask your Chapter Leaders to announce your workshop** in the local GDI Slack group (if applicable)
+  * To draft it, start a Direct Message with yourself to get the [formatting right](https://get.slack.help/hc/en-us/articles/202288908-Format-your-messages). Remember that you can edit messages after you send them.
+---
+  > * Example:
+
+  > :tada: *HTML & CSS intro: Build Your First Website* :tada:
+  > :calendar: Next Saturday September 29th and Sunday September 30th.
+  > :clock6: 6-9PM @ Google
+
+  > Join this workshop to learn and get your hands dirty building your first website using HTML & CSS. The workshop will be a mix of lectures and hands-on exercises, and will be taught by  Gabriela Zamudio(@evagabrielita), Software Engineers and Brenda Jin (@cyberneticlove), chapter leader and board member of GDI..
+
+ >This is a great follow-up workshop for those who have attended our HTML/CSS intro 4hr. workshop, and anyone interested in shiny new web things.
+
+---
