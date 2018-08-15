@@ -14,7 +14,7 @@ Included in this repository :
 
 ---
 
-## Who We Are
+## [Who We Are](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/who_we_are.md)
 Mission, Vision, Values,  Membership, How to Support GDI.
 
 ## Code of Conduct
