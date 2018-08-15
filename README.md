@@ -20,7 +20,7 @@ Mission, Vision, Values,  Membership, How to Support GDI.
 ## [Code of Conduct](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/code_of_conduct.md)
 This is the current GDI Code of Conduct.  Please make sure to have a copy or link to it on your event page.
 
-##[Contributing](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)
+## [Contributing](https://github.com/girldevelopit/GDI-Master-Curriculum/blob/master/resources/contributing-guide.md)
 We welcome and highly encourage active collaboration from all the GDI chapters. Contributing back should take the form of issues or pull requests depending on the nature of the contribution. Workshops-related feedback or questions should be submitted via GDI helpdesk.
 
 * Outline of how someone you can contribute:
@@ -56,4 +56,4 @@ Please checkout our [contributing guidelines](https://github.com/girldevelopit/G
   * Curriculum Review Rubric
 
 ## Credits
-Thank you to our contributors.
+Thank you to our [contributors](https://github.com/girldevelopit/GDI-Master-Curriculum/graphs/contributors).
