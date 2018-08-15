@@ -1,0 +1,1736 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Girl Develop IT</title>
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/serif.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+
+    <!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+
+            <!-- slide 00 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>SETUP INSTRUCTIONS FOR INSTRUCTOR</h4>
+                    <div class="slide-gdi">
+                        <p>Welcome to GDI!</p>
+                        <ul>
+                            <li>Please write your name and your TA's name on the whiteboard and say hello to your new classmates.</li>
+                            <li>Wifi and password</li>
+                            <li>If necessary, open the slack for this class or if there is another communication medium where
+                                you will be sharing information during the workshop</li>
+                            <li>Make sure you've downloaded a text editor and your prefered browser (i.e. Chrome).</li>
+                            <li>Create a free CodePen account so you can save any exercises or examples that you want to share
+                                with the class</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 01 -->
+            <section>
+                <div class="slide-one-container">
+                    <div class="slide-one-logo-container">
+                        <img src="assets/circle-gdi-logo.png" alt="Girl develop IT logo" />
+                    </div>
+                    <p class="text-content">
+                        Girl Develop IT is a nonprofit organization that provides affordable programs for adult women interested in learning web
+                        and software development in a judgement-free environment.
+                    </p>
+                </div>
+            </section>
+
+            <!-- slide 02 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/ClassExpectations.jpg">
+                <div class="slide-full-screen-image">
+                    <h2>Class Expectations</h2>
+                </div>
+            </section>
+
+            <!-- slide 03 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>CLASSROOM CULTURE</h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="img-ctn">
+                            <img style="height: auto; width: 500px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/classroom_culture.png" />
+                        </div>
+                        <div class="slide-gdi">
+                            <p>Let’s all agree to:</p>
+                            <ul>
+                                <li>Avoid bringing distractions into class</li>
+                                <li>Treat each other with respect</li>
+                                <li>Being actively involved</li>
+                                <li>Add more …</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 04 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>CLASSROOM CULTURE</h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="slide-gdi left-text">
+                            <p>Help us help you</p>
+                            <ul>
+                                <li>Pay attention: Multitasking doesn't work, especially for storing new information.</li>
+                                <li>Looking things up isn't always a bad thing: Google is your best friend and also ask questions (Don't be shy!)</li>
+                                <li>Mistakes should be celebrated.</li>
+                                <li>Being optimistic helps you succeed.</li>
+                                <li>Practice, practice, practice.</li>
+                                <li>Use what you know to learn what you don't.</li>
+                                <li>Teaching other people helps you, too.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <img style="width: 300px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/help.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 05 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LOGISTICS</h4>
+                    <br />
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Wifi and password</li>
+                            <li>Slack or other communication channel</li>
+                            <li>Codepen link</li>
+                            <li>Where to find the course materials
+                                <ul>
+                                    <li>Student Reference Sheet</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 06 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/MeetYourClassmates.JPG">
+                <div class="slide-full-screen-image">
+                    <h2>Meet Your Classmates</h2>
+                </div>
+            </section>
+
+            <!-- slide 07 -->
+            <section data-background-color="#f05b62" data-background-size="cover">
+                <div class="slide-three-container">
+                    <h4>Introductions</h4>
+                    <ol>
+                        <li>Name</li>
+                        <li>What do you do?</li>
+                        <li>Why are you taking this class?</li>
+                        <li>Fun fact!</li>
+                    </ol>
+                    <p class="bottom-message">If time allows, here are other
+                        <a target="_blank" style="color: indigo !important;" href="https://docs.google.com/document/d/14MYoa2xPpuZaQTcvjUc7fgff10p62c1FCW_ZjyoWMqI/edit?usp=sharing">sample questions</a>
+                    </p>
+                </div>
+            </section>
+
+            <!-- slide 08 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">COURSE AT A GLANCE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 09 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>COURSE OVERVIEW</h4>
+                    <br />
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/Overview_1.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 10 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LEARNING OBJECTIVES</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Learn and understand the web development landscape and where HTML & CSS fits in the web ecosystem</li>
+                            <li>Being able to describe the differences between front-end and back-end code</li>
+                            <li>Understand the basic components of HTML & CSS and being able to describe relationship between
+                                elements
+                            </li>
+                            <li>Apply and experiment with HTML tags</li>
+                            <li>Use CSS to add basics styles to a website</li>
+                            <li>Identify, understand, and apply various CSS properties </li>
+                            <li>Learn about opportunities to continue learning web-development with GDI and outside of GDI</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 11 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FINAL PROJECT AT FIRST GLANCE</h4>
+                    <div>
+                        <img style="max-width: 800px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/FinalProject_mockup.jpg">
+                    </div>
+                    <a target="_blank" class="small-text-list" href="https://codepen.io/evagabriela/pen/rrvqxB">Final project starting code</a>
+                </div>
+            </section>
+
+            <!-- slide 12 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">INTRO TO FRONT-END</h3>
+                        <h3 class="slide-seven-text large-text-on-color">DEVELOPMENT</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 13 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>AGENDA</h4>
+                    <div class="slide-gdi agenda-container">
+                        <p>Front-End vs Back-End</p>
+                        <p>Intro to Front-End Development</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 14 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WHAT IS FRONT_END</h3>
+                        <h3 class="slide-seven-text large-text-on-color">DEVELOPMENT</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 15 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>Web production workflow - front end</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Take a design and turn it into code and assets</li>
+                            <li>Uses HTML/CSS to create the structure for a page and add styles</li>
+                            <li>Add interactions with Javascript</li>
+                            <li>Other responsibilities: accessibility, performance, cross-browser and cross-device functionality</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/front-end.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 16 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FRONT-END IS MADE UP OF...</h4>
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-css-js.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 17 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>STRUCTURE, STYLE & BEHAVIOR</h4>
+                    <br />
+                    <div class="slide-seven-container">
+                        <img style="width: 500px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/structure-style-behavior.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 18 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>Web production workflow - BACKEND</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Give the application/webpage a 'memory'</li>
+                            <li>Talk to the database - getting data, adding and updating data</li>
+                            <li>Authenticate users</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/database-schema-1895779_640.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 19 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FRONT-END VS BACK-END</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/front-end-vs-back-end.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 20 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Describe the role and responsibilities of the front-end</p>
+                                <p>developer. How do these differ from those of the back-end developer?</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>
+                                    <span class="pad-right">1 min</span>
+                                    <span>1. Turn to partner and discuss</span>
+                                </p>
+                                <p>
+                                    <span class="pad-right">2 min</span>
+                                    <span>2. Share with rest of the class</span>
+                                </p>
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Come up with an anology!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 21 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WHAT IS A WEBSITE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 22 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>CLIENT AND SERVER</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/browser.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 23 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CLIENT AND SERVER</h4>
+                    <ul>
+                        <li>Browsers are applications that read code files and use them to render a web page.</li>
+                        <li>Browsers only know how to interpret HTML, CSS, JavaScript.</li>
+                    </ul>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/client_server.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 24 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">SETUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 25 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SETTING UP A PROJECT: USING TEXT EDITOR</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Create a “New Folder”</li>
+                            <li>Name the new folder “gdi_intro_html_css”</li>
+                            <li>Download GDI starter code ( a link provided by your teacher and TA’s)</li>
+                            <li>Save the starter code in the new folder you created</li>
+                            <li>Open the new folder in your text editor (i.e. Sublime, Atom, etc)</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/archive.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 26 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SETTING UP A PROJECT: USING CODEPEN</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>Open the codepen link provided by your teacher and ta’s
+                                <a target="_blank"  href="http://bit.ly/GDI-introCodePen1">http://bit.ly/GDI-introCodePen1</a>
+                            </li>
+                            <li>“Fork” (i.e. copy) the pen to make your own working version</li>
+                            <li>When your CodePen is ready for sharing, hit “Save” along the top bar to save it and make it ready.</li>
+                            <li>Click “Share” and you’ll get a similar set of options to these.</li>
+                        </ul>
+                        <div>
+                            <img style="width: 600px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/codePen.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 27 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML & CSS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 28 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HOW TO WRITE HTML</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/opening-closing-tag.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 29 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML?</h4>
+                    <ul class="centered-list">
+                        <li>HTML is how we add organization and structure to the content for our page.</li>
+                    </ul>
+                    <div>
+                        <img style="max-width: 700px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/daily_news.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 30 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML?</h4>
+                    <ul class="centered-list">
+                        <li>HTML is how we add organization and structure to the content for our page. Take a look on this CodePen
+                            link to see an example:
+                            <a target="_blank"  href="http://bit.ly/2nareWC">http://bit.ly/2nareWC</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <img style="width: 500px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-structure_code.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 31 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HOW TO WRITE CSS</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/css-code-example.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 32 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>WHAT IS CSS?</h4>
+                    <ul class="centered-list">
+                        <li>We use CSS to add styles to the HTML elements on our page. Take a look on this CodePen link to see
+                            an example
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/what-is-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 33 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="intro-to-html-text-center">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML BASICS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 34 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div>
+                        <img style="width: 800px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/html-more-detail.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 35 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-2">
+                        <div>
+                            <img src="assets/html-more-detail-3.png" />
+                        </div>
+                        <div>
+                            <img src="assets/html-more-detail-4.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 36 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-2">
+                        <div>
+                            <img src="assets/html-more-detail-5.png" />
+                        </div>
+                        <div>
+                            <img src="assets/html-more-detail-6.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 37 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">STRUCTURAL MARKUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 38 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Tags</h4>
+                    <div>
+                        <img src="assets/html-syntax-tags.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 39 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Headings</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/h1-h6.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 40 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML SYNTAX: Lists</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/ul-li.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 41 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>HTML SYNTAX:
+                        <span class="sub-text">Elements with no content + comments + character codes</span>
+                    </h4>
+                    <br />
+                    <div class="image-text-side-by-side">
+                        <div class="img-ctn">
+                            <img src="assets/no-content-tags.png" />
+                        </div>
+                        <div class="slide-gdi">
+                            <p>Examples:</p>
+                            <ul>
+                                <li>&lt;img&gt;</li>
+                                <li>&lt;br&gt;</li>
+                                <li>&lt;hr&gt;</li>
+                                <li>etc.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 42-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Add markup to a html doc</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add markups to the index.html. Use tags such as the &lt;h1&gt;, &lt;p&gt;, &lt;ul&gt;, and
+                                    &lt;li&gt; tags.
+                                    <br />
+                                    <span style="font-style: italic;">CodePen link:
+                                        <a target="_blank"  href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 43 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">SEMANTIC MARKUP</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 44 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>SEMANTIC TAGS: Strong, EM</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/strong-em.png">
+                    </div>
+                    <div>
+                        <ul style="text-align: left;display: block;">
+                            <li class="small-text-list">Default browser styles:
+                                <strong>will be bold</strong> and
+                                <em style="font-style: italic">em would be italic</em>
+                            </li>
+                            <li class="small-text-list">&lt;em&gt; indicates emphasis that may
+                                <em>subtly change</em> the meaning of a sentence:</Li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 45 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ATTRIBUTES</h4>
+                    <div>
+                        <img src="assets/attributes.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 46 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <p style="text-align: left; font-size: 0.6em;">Specify which page you want to link using the href attribute. ‣ Users can click on anything between the
+                        opening and closing &lt;a&gt; tags.
+                    </p>
+                    <div>
+                        <img src="assets/anchor-links.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 47 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>ANCHORS: LINKS</h4>
+                    <div>
+                        <img src="assets/anchor-link-cntd.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 48-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Finish adding markup to the html doc</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Continue the index.html by adding an &lt;a&gt; tag.
+                                </p>
+                                <p style="font-style: italic;">CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 49 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">HTML STRUCTURE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 50 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: DOCTYPE</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells browser file is written in latest version of HTML — HTML5</li>
+                        <li>Must be very first thing in HTML file!
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 51 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: &lt;HTML&gt;</h4>
+                    <ul class="block-html-slides">
+                        <li>ALL of our HTML code should go within these tags directly after DOCTYPE</li>
+                        <li>It has an opening and closing tag &lt;html&gt; &lt;/html&gt;</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 52 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: HEAD</h4>
+                    <div class="web-production">
+                        <ul>
+                            <li>For behind-the-scenes info used by browser, search engines</li>
+                            <li>Metadata that's not displayed</li>
+                            <li>It’s a good practice to only have one in each HTML file</li>
+                        </ul>
+                        <div>
+                            <img src="assets/html-doc-type.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 53 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: META CHARSET</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells our browser which character set to use and should always use UTF-8</li>
+                        <li>Goes inside of head tags</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 54 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: TITLE</h4>
+                    <ul class="block-html-slides">
+                        <li>Tells browser the name of the site and its used for browser tab, browser bookmarks and search engines</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 55 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML STRUCTURE: BODY</h4>
+                    <ul class="block-html-slides">
+                        <li>Only one in each HTML file. Wraps all content for our site and it has everything we want displayed
+                            in the browser window.</li>
+                        <li>The body tags &lt;body&gt;&lt;/body&gt; and it contains our HTML elements such as &lt;h1&gt;, &lt;a&gt;,
+                            &lt;p&gt;, etc.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-doc-type.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 56-->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Understand the basic layout of a HTML doc</p>
+                                <p>Describe relationship between elements</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add HTML boilerplate to index.html with all the tags that we just learned. (You will add
+                                    content later!)
+                                </p>
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Discuss with a partner the role and responsibilities of the front-end developer. How is it
+                                    different from the back-end developer? Come up with an analogy to describe the anatomy
+                                    of a website using html and css. CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 57 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>HTML: IMAGES</h4>
+                    <ul class="block-html-slides">
+                        <li>Images are added to the page with the img element. There are two required attributes: “src and alt”</li>
+                    </ul>
+                    <div>
+                        <img src="assets/html-images.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 59 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right content-right-small">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Review our sample file and your index.html and plan out structure with a partner.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add markups, use at least 4 tags discuss in class.</p>
+                                <p>Implement the &lt;hr&gt;, &lt;br&gt; element&lt;/p&gt;
+                            </div>
+                            <div>
+                                <h2>BONUS</h2>
+                                <p>Google and implement &lt;nav&gt;, &lt;footer&gt;, and &lt;header&gt; elements in your file.
+                                    CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2Kr6PWr">http://bit.ly/2Kr6PWr</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 59 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>HTML LEARNING OBJECTIVES CHECKLIST</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Learn and understand the web development landscape and where HTML & CSS fits in the web ecosystem</li>
+                            <li>Being able to describe the differences between front-end and back-end code</li>
+                            <li>Understand the basic components of HTML & CSS and being able to describe relationship between
+                                elements
+                            </li>
+                            <li>Apply and experiment with HTML tags</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 60 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color" style="text-align: center!important;">CSS BASICS</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 61 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS HTML IN MORE DETAIL</h4>
+                    <div class="image-1-3">
+                        <div>
+                            <img src="assets/css-zen-1.png" />
+                        </div>
+                        <div>
+                            <img src="assets/css-zen-2.png" />
+                        </div>
+                        <div>
+                            <img src="assets/css-zen-3.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 62 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>WHAT IS CSS?</h4>
+                    <ul class="block-html-slides">
+                        <li>Short for Cascading Style Sheet, CSS is the language used to add style to HTML elements.</li>
+                        <li>CSS is what handles the presentation layer of our webpage.</li>
+                        <li>CSS allows us to associate style rules with HTML elements.</li>
+                    </ul>
+                    <div class="image-grid">
+                        <div class="col-1-3">
+                            <img src="assets/what-css-1.png" />
+                        </div>
+                        <div class="col-2-3">
+                            <img src="assets/what-css-2.png" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 63 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX</h4>
+                    <div>
+                        <img src="assets/css-syntax.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 64 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX: SELECTOR</h4>
+                    <ul class="block-html-slides">
+                        <li>CSS selectors are used to "find" (or select) HTML elements based on their element name, id, class,
+                            attribute, and more.</li>
+                        <li>The element selector selects elements based on the element name.</li>
+                        <li>You can select all &lt;h1&gt; elements on a page like this (in this case, all &lt;h1&gt; elements
+                            will have a yellow text color)</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-selector.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 65 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>CSS SYNTAX: PROPERTY & VALUE</h4>
+                    <ul class="block-html-slides">
+                        <li>The declaration block contains one or more declarations separated by semicolons.</li>
+                        <li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+                        <li>In the following example all &lt;h1&gt; elements will have yellow text color and a font size of 16px.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/css-property-value.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 66 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>USING INTERNAL CSS</h4>
+                    <ul class="block-html-slides">
+                        <li>You can include CSS rules by placing them inside a &lt;style&gt; element, which usually sits inside
+                            the &lt;head&gt;.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/internal-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 67 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>USING EXTERNAL CSS</h4>
+                    <ul class="block-html-slides">
+                        <li>&lt;link&gt; — tells browser where to find the CSS file that should be used to style the page.</li>
+                        <li>Should live inside the &lt;head&gt; of the document.</li>
+                        <li>The syntax within the &lt;link&gt; tag means:
+                            <ul>
+                                <li class="nested-li-font-size">
+                                    <strong>href: </strong>path to the CSS file</li>
+                                <li class="nested-li-font-size">
+                                    <strong>rel: </strong>relationship between the HTML page and the file it is linked to.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div>
+                        <img src="assets/external-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 68 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>INTERNAL VS EXTERNAL CSS</h4>
+                    <p>BENEFITS OF USING AN EXTERNAL STYLESHEET:</p>
+                    <ul class="block-html-slides">
+                        <li>Multiple pages can use same stylesheet (Don't repeat yourself!)</li>
+                        <li>Only have to make changes in one file</li>
+                        <li>Keep content separate from presentation</li>
+                    </ul>
+                    <div>
+                        <img src="assets/internal-vs-external-css.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 69 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Practice adding a css file, external link and a css property</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>5 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add a &lt;link&gt; to the file in the head of your index.html file (is this a relative or
+                                    absolute path?) It should look like this:</p>
+                                <p>&lt;link rel=”stylesheet” href=”css/style.css”&gt;</p>
+                                <p style="font-style: italic">CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 70 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">COLOR</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 71 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/color.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 72 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR</h4>
+                    <div class="all-aligned-left">
+                        <p>
+                            <strong>RGB VALUES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Values for red, green and blue are expressed as numbers between 0 and 255 (i.e. rgb(72,209,204).</li>
+                            </ul>
+                        </div>
+                        <p>
+                            <strong>HEX CODES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Represent values for red, green and blue in hexadecimal (base 16) code (i.e. #48D1CC).</li>
+                            </ul>
+                        </div>
+                        <p>
+                            <strong>COLOR NAMES</strong>
+                        </p>
+                        <div>
+                            <ul class="block-html-slides">
+                                <li>Colors are represented by predefined names. They are not used very much but</li>
+                                <li>are helpful for basic colors such as black and white.
+                                    <a target="_blank"  href="https://www.w3schools.com/colors/colors_names.asp">Full list of color names</a>. (i.e. Medium Turquoise)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 73 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>COLOR: OPACITY</h4>
+                    <p style="text-align: left;">RGB</p>
+                    <ul class="block-html-slides">
+                        <li>RGBA works the same as RGB, except that it takes a 4th value called 'alpha'.</li>
+                        <li>This is a value between 0 and 1 which can be used to determine a color's opacity on the page.</li>
+                    </ul>
+                    <div>
+                        <img src="assets/color-opacity.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 74 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p style="margin: 0px; font-size: 0.7em;">Add the CSS rule below to the CSS file:
+                                    <code>body {background-color: turquoise;}</code>
+                                </p>
+                                <p style="margin: 0px; font-size: 0.7em;">*check your page in the browser and see what happens</p>
+                                <p style="margin: 0px; font-size: 0.7em;">Change the text color for the body to #FFFFFF</p>
+                                <p style="margin: 0px; font-size: 0.7em;">Change the text color for the paragraph element to #EB7F00.
+                                    <span style="font-style: italic;"></span>CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 75 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">TYPE</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 76 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/text-align.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 77 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>TYPEFACE TERMINOLOGY</h4>
+                    <div>
+                        <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/font-weight.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 78 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FONT-FAMILY</h4>
+                    <ul class="block-html-slides">
+                        <li>We can provide a comma-separated list with our preferred font-family, followed by "fallback" fonts.</li>
+                        <li>We usually want to end this list with either 'serif' or 'sans-serif'.</li>
+                        <li>Some common system fonts:</li>
+                    </ul>
+                    <table>
+                        <tr>
+                            <td>Georgia</td>
+                            <td>Arial</td>
+                        </tr>
+                        <tr>
+                            <td>Times</td>
+                            <td>Verdana</td>
+                        </tr>
+                        <tr>
+                            <td>Times New Roman</td>
+                            <td>Helvetica</td>
+                        </tr>
+                    </table>
+                    <div>
+                        <img src="assets/font-family.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 79 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>
+                                    <p style="font-size: 0.7em;">Center the h3</p>
+                                    <p style="font-size: 0.7em;">Change the font-size of the paragraph element to 20px and the font-weight to bold</p>
+                                    <p style="font-size: 0.7em;">Change the text color for the paragraph element to #EB7F00</p>
+                                    <p style="font-size: 0.7em;">Bonus: Try using a Google web font on your page. CodePen link:
+                                        <a target="_blank"  href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 80 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">BOX MODEL</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 81 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS: BOX MODEL</h4>
+                    <div class="learning-resources">
+                        <ul>
+                            <li>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking
+                                about design and layout.</li>
+                            <li>The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                                margins, borders, padding, and the actual content.</li>
+                            <li>Parts:
+                                <ul>
+                                    <li>
+                                        <strong>Content - </strong>The content of the box, where text and images appear</li>
+                                    <li>
+                                        <strong>Padding - </strong>Clears an area around the content. The padding is transparent</li>
+                                    <li>
+                                        <strong>Border - </strong>A border that goes around the padding and content</li>
+                                    <li>
+                                        <strong>Margin - </strong>Clears an area outside the border. The margin is transparent</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="assets/box-model-example.png">
+                </div>
+            </section>
+
+            <!-- slide 82 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER</h4>
+                    <div>
+                        <img src="assets/border-1.png">
+                    </div>
+                    <p>Every box has a border, even if it's not visible or specified to be 0 px wide</p>
+                </div>
+            </section>
+
+            <!-- slide 83 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER</h4>
+                    <div>
+                        <img src="assets/box-model-border.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 84 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: BORDER SHORTHAND</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/border.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 85 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: MARGIN</h4>
+                    <div>
+                        <img src="assets/margin.png">
+                    </div>
+                    <p>Margins sit outside the border. You can set the width of a margin to create a gap between the borders
+                        of two adjacent boxes</p>
+                </div>
+            </section>
+
+            <!-- slide 86 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: MARGIN SYNTAX</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/margin.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 87 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: PADDING</h4>
+                    <div>
+                        <img src="assets/padding-87.png">
+                    </div>
+                    <p>Padding is the space between the border of a box and any content contained within it</p>
+                </div>
+            </section>
+
+            <!-- slide 88 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: PADDING SYNTAX</h4>
+                    <div>
+                        <img style="max-width: 900px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/padding.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 89 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>CSS BOX MODEL: INTERACTIVE MODEL</h4>
+                    <p style="text-align: left !important;">There are differents tools online like this one where you can see an interactive model of the CSS box
+                        model
+                    </p>
+                    <div>
+                        <img src="assets/interactive-model.png">
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 90 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p>Use CSS to add basic styles to an HTML page</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p>3 min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <p>Add some margin, border and padding to an element in your doc</p>
+                                <p>Add an appropriate border to an image in your doc</p>
+                                <p>CodePen link:
+                                    <a target="_blank"  href="http://bit.ly/2M6P8AI">http://bit.ly/2M6P8AI</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 91 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">FINAL PROJECT</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 92 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-four-container">
+                    <h4>FINAL PROJECT AT FIRST GLANCE</h4>
+                    <div>
+                        <img style="max-width: 800px;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/FinalProject_mockup.jpg">
+                    </div>
+                    <a target="_blank" class="small-text-list" href="https://codepen.io/evagabriela/pen/rrvqxB">Final project starting code</a>
+                </div>
+            </section>
+
+            <!-- slide 93 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-six-container">
+                    <h4>ACTIVITY</h4>
+                    <div class="block">
+                        <div class="img-container">
+                            <img style="max-width: 150px; height: auto;" src="https://s3-us-west-1.amazonaws.com/intro-html-css/lab-icon.png">
+                        </div>
+                        <div class="content-right">
+                            <div>
+                                <h2>KEY OBJECTIVE</h2>
+                                <p class="small-text-list">Apply your new HTML & CSS skills by developing a profile site.</p>
+                            </div>
+                            <div>
+                                <h2>TIMING</h2>
+                                <p class="small-text-list">15+ min approx.</p>
+                            </div>
+                            <div>
+                                <h2>DIRECTIONS</h2>
+                                <ul>
+                                    <li class="small-text-list">You can either use a text editor or CodePen to work on your final project. Just follow
+                                        the instructions while also developing your CSS code in the style.css file.</li>
+                                    <ul>
+                                        <li class="small-text-list">Text Editor: Open the starting code folder.</li>
+                                        <li class="small-text-list">CodePen:
+                                            <a target="_blank" href="http://bit.ly/GDI_final_project_1">http://bit.ly/GDI_final_project_1</a>
+                                        </li>
+                                    </ul>
+                                    <p class="small-text-list" style="display: block; text-align: right;">
+                                        <em>Solution:
+                                            <a target="_blank" href="http://bit.ly/GDI_final_project_1_solution">http://bit.ly/GDI_final_project_1_solution</a>
+                                        </em>
+                                    </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 94 -->
+            <section data-background-color="#fff">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="learning-resources">
+                        <p>Learning Resources:</p>
+                        <ul class="nested-ul-parent">
+                            <li>
+                                Upcoming GDI workshop, classes and events.
+                            </li>
+                            <li>Helpful online tutorials:
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="https://www.codecademy.com/learn/learn-html">Code Academy</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.w3schools.com/">W3 School</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Other Resources
+                                <ul>
+                                    <li>
+                                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Element Index</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://dev.w3.org/html5/html-author/charref">HTML entity codes</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.cheatography.com/martinprins/cheat-sheets/sublime-text-3-osx/">Sublime cheat sheet (Mac)</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.cheatography.com/ceviche/cheat-sheets/sublime-text-3-windows/">Sublime cheat sheet (Windows)</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.inmotionhosting.com/img/infographics/html5_cheat_sheet_tags.png">HTML5 cheat sheet</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://www.htmldog.com/references/html/tags/">HTML5 element index</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="http://html5please.com/">HTML5 Please</a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 95 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div class="">
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">Q&A</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 96 -->
+            <section data-background-color="#f05b62">
+                <div class="slide-four-container">
+                    <h4>INTRO TO HTML & CSS</h4>
+                    <div>
+                        <br/>
+                        <h3 class="slide-seven-text large-text-on-color">WRAP UP
+                        </h3>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 97 -->
+            <section data-background-color="#fff" data-background-size="cover">
+                <div class="slide-block-container">
+                    <h4>LEARNING OBJECTIVES CHECKLIST</h4>
+                    <div class="slide-gdi">
+                        <ul>
+                            <li>Learn and understand the web development landscape and where HTML & CSS fits in the web ecosystem</li>
+                            <li>Being able to describe the differences between front-end and back-end code</li>
+                            <li>Understand the basic components of HTML & CSS and being able to describe relationship between
+                                elements
+                            </li>
+                            <li> Apply and experiment with HTML tags</li>
+                            <li>Use CSS to add basics styles to a website</li>
+                            <li>Identify, understand, and apply various CSS properties </li>
+                            <li>Learn about opportunities to continue learning web-development with GDI and outside of GDI</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- slide 98 -->
+            <section data-background-image="https://s3-us-west-1.amazonaws.com/intro-html-css/share_progress.jpg">
+                <div class="slide-full-screen-image--">
+                    <h2>Share your progress with us</h2>
+                </div>
+            </section>
+
+            <!-- slide 99 -->
+            <section>
+                <div class="slide-final-container">
+
+                    <div style="display: flex">
+                        <div>
+                            <h2>See you next time!</h2>
+                            <img src="https://s3-us-west-1.amazonaws.com/intro-html-css/see_you_gdi.jpeg">
+                        </div>
+                        <div>
+                            <img src="assets/circle-gdi-logo.png" alt="Girl develop IT logo" />
+                        </div>
+                    </div>
+                    <div class="footer">
+                        <div style="display: flex; align-items: center; margin-bottom: 10px; margin-top: 16px;">
+                            <img src="assets/twitter.png">&nbsp;
+                          <a style="font-size: 0.6em !important; color: blue !important; text-decoration: underline;" target="_blank" href="https://twitter.com/girldevelopit">@girldevelopit</a>
+                        </div>
+                        <div style="display: flex; align-items: center;">
+                            <img src="assets/facebook.png">&nbsp;
+                            <a style="font-size: 0.6em !important; color: blue !important; text-decoration: underline;" target="_blank" href="https://www.facebook.com/girldevelopit">facebook.com/girldevelopit</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            align: 'center',
+            width: '100%',
+            height: '100%',
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: 'lib/js/classList.js', condition: function () { return !document.body.classList; } },
+                { src: 'plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/search/search.js', async: true },
+                { src: 'plugin/zoom-js/zoom.js', async: true },
+                { src: 'plugin/notes/notes.js', async: true }
+            ]
+        });
+    </script>
+
+</body>
+
+</html>

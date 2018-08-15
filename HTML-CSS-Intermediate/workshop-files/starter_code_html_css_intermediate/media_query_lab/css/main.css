@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i');
+
+/* -----------------------------
+BASE STYLES
+-------------------------------- */
+html, body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px solid #27226A;
+  margin: 0 20px;
+}
+
+/* -----------------------------
+Typography
+-------------------------------- */
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #27226A;
+  margin: 40px 0 0;
+}
+
+h3 {
+  font-size: 1em;
+  font-style: italic;
+}
+
+h4 {
+  font-size: .777em;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* -----------------------------
+Page Layout
+-------------------------------- */
+header {
+  background-color: #27226A;
+  color: #599BCB;
+  padding: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #27226A;
+  color: #599BCB;
+  padding: 10px;
+}
